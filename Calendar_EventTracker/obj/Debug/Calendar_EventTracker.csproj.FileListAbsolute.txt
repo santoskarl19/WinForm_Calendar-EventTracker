@@ -1,0 +1,14 @@
+C:\Git Desktop\Repos\WinForm_Calendar-EventTracker\Calendar_EventTracker\bin\Debug\Calendar_EventTracker.exe.config
+C:\Git Desktop\Repos\WinForm_Calendar-EventTracker\Calendar_EventTracker\bin\Debug\Calendar_EventTracker.exe
+C:\Git Desktop\Repos\WinForm_Calendar-EventTracker\Calendar_EventTracker\bin\Debug\Calendar_EventTracker.pdb
+C:\Git Desktop\Repos\WinForm_Calendar-EventTracker\Calendar_EventTracker\bin\Debug\MaterialSkin.dll
+C:\Git Desktop\Repos\WinForm_Calendar-EventTracker\Calendar_EventTracker\obj\Debug\Calendar_EventTracker.csproj.AssemblyReference.cache
+C:\Git Desktop\Repos\WinForm_Calendar-EventTracker\Calendar_EventTracker\obj\Debug\Calendar_EventTracker.csproj.SuggestedBindingRedirects.cache
+C:\Git Desktop\Repos\WinForm_Calendar-EventTracker\Calendar_EventTracker\obj\Debug\Calendar_EventTracker.Properties.Resources.resources
+C:\Git Desktop\Repos\WinForm_Calendar-EventTracker\Calendar_EventTracker\obj\Debug\Calendar_EventTracker.csproj.GenerateResource.cache
+C:\Git Desktop\Repos\WinForm_Calendar-EventTracker\Calendar_EventTracker\obj\Debug\Calendar_EventTracker.csproj.CoreCompileInputs.cache
+C:\Git Desktop\Repos\WinForm_Calendar-EventTracker\Calendar_EventTracker\obj\Debug\Calendar_EventTracker.csproj.CopyComplete
+C:\Git Desktop\Repos\WinForm_Calendar-EventTracker\Calendar_EventTracker\obj\Debug\Calendar_EventTracker.exe
+C:\Git Desktop\Repos\WinForm_Calendar-EventTracker\Calendar_EventTracker\obj\Debug\Calendar_EventTracker.pdb
+C:\Git Desktop\Repos\WinForm_Calendar-EventTracker\Calendar_EventTracker\obj\Debug\Calendar_EventTracker.Login.resources
+C:\Git Desktop\Repos\WinForm_Calendar-EventTracker\Calendar_EventTracker\obj\Debug\Calendar_EventTracker.MainPage.resources
