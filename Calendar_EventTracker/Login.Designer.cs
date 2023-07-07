@@ -35,7 +35,7 @@
             this.label1 = new System.Windows.Forms.Label();
             this.label_Calendar = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
-            this.button1 = new System.Windows.Forms.Button();
+            this.btnLogin = new System.Windows.Forms.Button();
             this.panel5 = new System.Windows.Forms.Panel();
             this.txtPassword = new System.Windows.Forms.TextBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
@@ -44,7 +44,6 @@
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.label3 = new System.Windows.Forms.Label();
             this.btnClose = new System.Windows.Forms.Button();
-            this.materialLabel1 = new MaterialSkin.Controls.MaterialLabel();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             this.panel5.SuspendLayout();
@@ -110,8 +109,7 @@
             // 
             // panel2
             // 
-            this.panel2.Controls.Add(this.materialLabel1);
-            this.panel2.Controls.Add(this.button1);
+            this.panel2.Controls.Add(this.btnLogin);
             this.panel2.Controls.Add(this.panel5);
             this.panel2.Controls.Add(this.panel3);
             this.panel2.Controls.Add(this.label3);
@@ -122,19 +120,20 @@
             this.panel2.Size = new System.Drawing.Size(1290, 1299);
             this.panel2.TabIndex = 1;
             // 
-            // button1
+            // btnLogin
             // 
-            this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(128)))), ((int)(((byte)(185)))));
-            this.button1.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.Font = new System.Drawing.Font("Century Gothic", 10.125F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.ForeColor = System.Drawing.Color.White;
-            this.button1.Location = new System.Drawing.Point(1085, 761);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(164, 64);
-            this.button1.TabIndex = 4;
-            this.button1.Text = "LOGIN";
-            this.button1.UseVisualStyleBackColor = false;
+            this.btnLogin.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(128)))), ((int)(((byte)(185)))));
+            this.btnLogin.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnLogin.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnLogin.Font = new System.Drawing.Font("Century Gothic", 10.125F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnLogin.ForeColor = System.Drawing.Color.White;
+            this.btnLogin.Location = new System.Drawing.Point(1085, 761);
+            this.btnLogin.Name = "btnLogin";
+            this.btnLogin.Size = new System.Drawing.Size(164, 64);
+            this.btnLogin.TabIndex = 4;
+            this.btnLogin.Text = "LOGIN";
+            this.btnLogin.UseVisualStyleBackColor = false;
+            this.btnLogin.Click += new System.EventHandler(this.btnLogin_Click);
             // 
             // panel5
             // 
@@ -222,19 +221,6 @@
             this.btnClose.UseVisualStyleBackColor = false;
             this.btnClose.Click += new System.EventHandler(this.btnClose_Click);
             // 
-            // materialLabel1
-            // 
-            this.materialLabel1.AutoSize = true;
-            this.materialLabel1.Depth = 0;
-            this.materialLabel1.Font = new System.Drawing.Font("Roboto", 11F);
-            this.materialLabel1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.materialLabel1.Location = new System.Drawing.Point(253, 905);
-            this.materialLabel1.MouseState = MaterialSkin.MouseState.HOVER;
-            this.materialLabel1.Name = "materialLabel1";
-            this.materialLabel1.Size = new System.Drawing.Size(214, 37);
-            this.materialLabel1.TabIndex = 5;
-            this.materialLabel1.Text = "materialLabel1";
-            // 
             // Login
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
@@ -277,8 +263,7 @@
         private System.Windows.Forms.PictureBox pictureBox2;
         private System.Windows.Forms.TextBox txtUserName;
         private System.Windows.Forms.TextBox txtPassword;
-        private System.Windows.Forms.Button button1;
-        private MaterialSkin.Controls.MaterialLabel materialLabel1;
+        private System.Windows.Forms.Button btnLogin;
     }
 }
 

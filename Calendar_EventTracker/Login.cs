@@ -14,6 +14,10 @@ namespace Calendar_EventTracker
 {
     public partial class Login : MaterialForm
     {
+        string userName = "harry.potter";
+        string password = "magic123";
+
+        MainPage mainPage = new MainPage();
         public Login()
         {
             InitializeComponent();
@@ -36,6 +40,27 @@ namespace Calendar_EventTracker
         private void btnClose_Click(object sender, EventArgs e)
         {
             Application.Exit();
+        }
+
+        private void btnLogin_Click(object sender, EventArgs e)
+        {
+            if (txtUserName.Text == userName && txtPassword.Text == password)
+            {
+                // display main page
+                mainPage.Show();
+
+                // clear text fields
+                txtUserName.Clear();
+                txtPassword.Clear();
+            }
+            else
+            {
+                MessageBox.Show("Incorrect User Login or Password!", "ERROR");
+
+                // clear text fields
+                txtUserName.Clear();
+                txtPassword.Clear();
+            }
         }
     }
 }
