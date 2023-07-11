@@ -15,9 +15,6 @@ namespace Calendar_EventTracker
 {
     public partial class MainPage : MaterialForm
     {
-        BindingList<Events> listOfEvents = new BindingList<Events>();
-
-
         public MainPage()
         {
             InitializeComponent();
@@ -32,19 +29,31 @@ namespace Calendar_EventTracker
         {
 
 
+
         }
 
+        // January
         public void panel1_Click(object sender, EventArgs e)
         {
-            // Get the selected date from the clicked panel
-            Panel selectedPanel = (Panel)sender;
-            string selectedDate = selectedPanel.Tag?.ToString();
-
-            // Create an instance of EventForm and pass the selected date
-            EventForm eventForm = new EventForm(selectedDate);
+            EventForm eventForm = new EventForm();
 
             eventForm.ShowDialog();
 
         }
+
+        private void panel2_Click(object sender, EventArgs e)
+        {
+            EventForm eventForm = new EventForm();
+
+            eventForm.ShowDialog();
+        }
+        private void btnViewEvents_Click(object sender, EventArgs e)
+        {
+            EventView eventView = new EventView();
+
+            eventView.ShowDialog();
+        }
+
+        
     }
 }

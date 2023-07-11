@@ -31,6 +31,7 @@
             this.materialTabSelector1 = new MaterialSkin.Controls.MaterialTabSelector();
             this.materialTabControl1 = new MaterialSkin.Controls.MaterialTabControl();
             this.dayContainerTabPage = new System.Windows.Forms.TabPage();
+            this.btnViewEvents = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panel33 = new System.Windows.Forms.Panel();
             this.label31 = new System.Windows.Forms.Label();
@@ -1297,6 +1298,7 @@
             // 
             // dayContainerTabPage
             // 
+            this.dayContainerTabPage.Controls.Add(this.btnViewEvents);
             this.dayContainerTabPage.Controls.Add(this.pictureBox1);
             this.dayContainerTabPage.Controls.Add(this.panel33);
             this.dayContainerTabPage.Controls.Add(this.panel34);
@@ -1343,6 +1345,17 @@
             this.dayContainerTabPage.TabIndex = 0;
             this.dayContainerTabPage.Text = "JANUARY";
             this.dayContainerTabPage.UseVisualStyleBackColor = true;
+            // 
+            // btnViewEvents
+            // 
+            this.btnViewEvents.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnViewEvents.Location = new System.Drawing.Point(2158, 1154);
+            this.btnViewEvents.Name = "btnViewEvents";
+            this.btnViewEvents.Size = new System.Drawing.Size(352, 49);
+            this.btnViewEvents.TabIndex = 55;
+            this.btnViewEvents.Text = "View Events";
+            this.btnViewEvents.UseVisualStyleBackColor = true;
+            this.btnViewEvents.Click += new System.EventHandler(this.btnViewEvents_Click);
             // 
             // pictureBox1
             // 
@@ -1911,6 +1924,7 @@
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(344, 180);
             this.panel2.TabIndex = 13;
+            this.panel2.Click += new System.EventHandler(this.panel2_Click);
             // 
             // label2
             // 
@@ -11543,5 +11557,6 @@
         private System.Windows.Forms.Label label337;
         private System.Windows.Forms.Label label336;
         private System.Windows.Forms.Label label335;
+        private System.Windows.Forms.Button btnViewEvents;
     }
 }

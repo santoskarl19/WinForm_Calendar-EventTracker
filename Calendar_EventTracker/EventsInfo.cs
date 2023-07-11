@@ -9,9 +9,11 @@ namespace Calendar_EventTracker
     // all events will be temporary stored here while app is running
     public class Events
     {
-        public string eventName { get; set; }
-        public string eventDate { get; set; }
+        public string Event_Name { get; set; }
+        public string Location { get; set; }
+        public string Details { get; set; }
+
 
     }
-    
+
 }

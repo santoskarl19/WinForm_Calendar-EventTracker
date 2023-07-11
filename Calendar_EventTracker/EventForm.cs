@@ -12,28 +12,35 @@ namespace Calendar_EventTracker
 {
     public partial class EventForm : Form
     {
-        private string selectedDate;
-        public EventForm(string selectedDate)
+        public EventForm()
         {
             InitializeComponent();
 
-            this.selectedDate = selectedDate;
         }
 
         private void EventForm_Load(object sender, EventArgs e)
         {
-            txtDate.Text = selectedDate;
+
         }
 
         public void btnSave_Click(object sender, EventArgs e)
         {
-            BindingList<Events> listOfEvents = new BindingList<Events>();
             Events newEvent = new Events();
 
-            newEvent.eventDate = selectedDate; // Use the selected date from the constructor
-            newEvent.eventName = txtEvent.Text;
+            newEvent.Event_Name = txtEvent.Text;
+            newEvent.Location = txtLocation.Text;
+            newEvent.Details = txtDetails.Text;
 
-            listOfEvents.Add(newEvent);
+            GlobalData.EventList.Add(newEvent);
+
+            MessageBox.Show("Event added!");
+
+            txtDetails.Clear();
+            txtEvent.Clear();
+            txtLocation.Clear();
+
+            this.Close();
+
         }
     }
 }
