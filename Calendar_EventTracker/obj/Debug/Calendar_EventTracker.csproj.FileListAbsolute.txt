@@ -12,3 +12,4 @@ C:\Git Desktop\Repos\WinForm_Calendar-EventTracker\Calendar_EventTracker\obj\Deb
 C:\Git Desktop\Repos\WinForm_Calendar-EventTracker\Calendar_EventTracker\obj\Debug\Calendar_EventTracker.pdb
 C:\Git Desktop\Repos\WinForm_Calendar-EventTracker\Calendar_EventTracker\obj\Debug\Calendar_EventTracker.Login.resources
 C:\Git Desktop\Repos\WinForm_Calendar-EventTracker\Calendar_EventTracker\obj\Debug\Calendar_EventTracker.MainPage.resources
+C:\Git Desktop\Repos\WinForm_Calendar-EventTracker\Calendar_EventTracker\obj\Debug\Calendar_EventTracker.EventForm.resources
