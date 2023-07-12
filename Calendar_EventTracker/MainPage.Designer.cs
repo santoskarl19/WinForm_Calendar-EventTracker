@@ -9987,7 +9987,6 @@
             this.Controls.Add(this.materialTabControl1);
             this.Name = "MainPage";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Load += new System.EventHandler(this.Form2_Load);
             this.materialTabControl1.ResumeLayout(false);
             this.dayContainerTabPage.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();

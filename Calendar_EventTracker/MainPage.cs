@@ -25,14 +25,6 @@ namespace Calendar_EventTracker
 
         }
 
-        private void Form2_Load(object sender, EventArgs e)
-        {
-
-
-
-        }
-
-        
         private void btnOpenEvents_Click(object sender, EventArgs e)
         {
             EventView eventView = new EventView();
@@ -44,9 +36,7 @@ namespace Calendar_EventTracker
         public void panel1_Click(object sender, EventArgs e)
         {
             EventForm eventForm = new EventForm();
-
             eventForm.ShowDialog();
-
         }
 
         private void panel2_Click(object sender, EventArgs e)
