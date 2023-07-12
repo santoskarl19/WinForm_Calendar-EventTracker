@@ -31,7 +31,7 @@
             this.materialTabSelector1 = new MaterialSkin.Controls.MaterialTabSelector();
             this.materialTabControl1 = new MaterialSkin.Controls.MaterialTabControl();
             this.dayContainerTabPage = new System.Windows.Forms.TabPage();
-            this.btnViewEvents = new System.Windows.Forms.Button();
+            this.btnOpenEvents = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panel33 = new System.Windows.Forms.Panel();
             this.label31 = new System.Windows.Forms.Label();
@@ -1298,7 +1298,7 @@
             // 
             // dayContainerTabPage
             // 
-            this.dayContainerTabPage.Controls.Add(this.btnViewEvents);
+            this.dayContainerTabPage.Controls.Add(this.btnOpenEvents);
             this.dayContainerTabPage.Controls.Add(this.pictureBox1);
             this.dayContainerTabPage.Controls.Add(this.panel33);
             this.dayContainerTabPage.Controls.Add(this.panel34);
@@ -1346,16 +1346,20 @@
             this.dayContainerTabPage.Text = "JANUARY";
             this.dayContainerTabPage.UseVisualStyleBackColor = true;
             // 
-            // btnViewEvents
+            // btnOpenEvents
             // 
-            this.btnViewEvents.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnViewEvents.Location = new System.Drawing.Point(2158, 1154);
-            this.btnViewEvents.Name = "btnViewEvents";
-            this.btnViewEvents.Size = new System.Drawing.Size(352, 49);
-            this.btnViewEvents.TabIndex = 55;
-            this.btnViewEvents.Text = "View Events";
-            this.btnViewEvents.UseVisualStyleBackColor = true;
-            this.btnViewEvents.Click += new System.EventHandler(this.btnViewEvents_Click);
+            this.btnOpenEvents.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(128)))), ((int)(((byte)(185)))));
+            this.btnOpenEvents.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnOpenEvents.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnOpenEvents.Font = new System.Drawing.Font("Century Gothic", 10.125F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnOpenEvents.ForeColor = System.Drawing.Color.White;
+            this.btnOpenEvents.Location = new System.Drawing.Point(2158, 1066);
+            this.btnOpenEvents.Name = "btnOpenEvents";
+            this.btnOpenEvents.Size = new System.Drawing.Size(352, 64);
+            this.btnOpenEvents.TabIndex = 56;
+            this.btnOpenEvents.Text = "View Events";
+            this.btnOpenEvents.UseVisualStyleBackColor = false;
+            this.btnOpenEvents.Click += new System.EventHandler(this.btnOpenEvents_Click);
             // 
             // pictureBox1
             // 
@@ -1373,6 +1377,7 @@
             this.panel33.Name = "panel33";
             this.panel33.Size = new System.Drawing.Size(344, 180);
             this.panel33.TabIndex = 42;
+            this.panel33.Click += new System.EventHandler(this.panel33_Click);
             // 
             // label31
             // 
@@ -1392,6 +1397,7 @@
             this.panel34.Name = "panel34";
             this.panel34.Size = new System.Drawing.Size(344, 180);
             this.panel34.TabIndex = 41;
+            this.panel34.Click += new System.EventHandler(this.panel34_Click);
             // 
             // label30
             // 
@@ -1411,6 +1417,7 @@
             this.panel35.Name = "panel35";
             this.panel35.Size = new System.Drawing.Size(344, 180);
             this.panel35.TabIndex = 40;
+            this.panel35.Click += new System.EventHandler(this.panel35_Click);
             // 
             // label29
             // 
@@ -1430,6 +1437,7 @@
             this.panel22.Name = "panel22";
             this.panel22.Size = new System.Drawing.Size(344, 180);
             this.panel22.TabIndex = 39;
+            this.panel22.Click += new System.EventHandler(this.panel22_Click);
             // 
             // label28
             // 
@@ -1449,6 +1457,7 @@
             this.panel23.Name = "panel23";
             this.panel23.Size = new System.Drawing.Size(344, 180);
             this.panel23.TabIndex = 38;
+            this.panel23.Click += new System.EventHandler(this.panel23_Click);
             // 
             // label27
             // 
@@ -1468,6 +1477,7 @@
             this.panel24.Name = "panel24";
             this.panel24.Size = new System.Drawing.Size(344, 180);
             this.panel24.TabIndex = 37;
+            this.panel24.Click += new System.EventHandler(this.panel24_Click);
             // 
             // label26
             // 
@@ -1487,6 +1497,7 @@
             this.panel25.Name = "panel25";
             this.panel25.Size = new System.Drawing.Size(344, 180);
             this.panel25.TabIndex = 36;
+            this.panel25.Click += new System.EventHandler(this.panel25_Click);
             // 
             // label25
             // 
@@ -1506,6 +1517,7 @@
             this.panel26.Name = "panel26";
             this.panel26.Size = new System.Drawing.Size(344, 180);
             this.panel26.TabIndex = 35;
+            this.panel26.Click += new System.EventHandler(this.panel26_Click);
             // 
             // label24
             // 
@@ -1525,6 +1537,7 @@
             this.panel27.Name = "panel27";
             this.panel27.Size = new System.Drawing.Size(344, 180);
             this.panel27.TabIndex = 34;
+            this.panel27.Click += new System.EventHandler(this.panel27_Click);
             // 
             // label23
             // 
@@ -1544,6 +1557,7 @@
             this.panel28.Name = "panel28";
             this.panel28.Size = new System.Drawing.Size(344, 180);
             this.panel28.TabIndex = 33;
+            this.panel28.Click += new System.EventHandler(this.panel28_Click);
             // 
             // label22
             // 
@@ -1563,6 +1577,7 @@
             this.panel15.Name = "panel15";
             this.panel15.Size = new System.Drawing.Size(344, 180);
             this.panel15.TabIndex = 32;
+            this.panel15.Click += new System.EventHandler(this.panel15_Click);
             // 
             // label21
             // 
@@ -1582,6 +1597,7 @@
             this.panel16.Name = "panel16";
             this.panel16.Size = new System.Drawing.Size(344, 180);
             this.panel16.TabIndex = 31;
+            this.panel16.Click += new System.EventHandler(this.panel16_Click);
             // 
             // label20
             // 
@@ -1601,6 +1617,7 @@
             this.panel17.Name = "panel17";
             this.panel17.Size = new System.Drawing.Size(344, 180);
             this.panel17.TabIndex = 30;
+            this.panel17.Click += new System.EventHandler(this.panel17_Click);
             // 
             // label19
             // 
@@ -1620,6 +1637,7 @@
             this.panel18.Name = "panel18";
             this.panel18.Size = new System.Drawing.Size(344, 180);
             this.panel18.TabIndex = 29;
+            this.panel18.Click += new System.EventHandler(this.panel18_Click);
             // 
             // label18
             // 
@@ -1639,6 +1657,7 @@
             this.panel19.Name = "panel19";
             this.panel19.Size = new System.Drawing.Size(344, 180);
             this.panel19.TabIndex = 28;
+            this.panel19.Click += new System.EventHandler(this.panel19_Click);
             // 
             // label17
             // 
@@ -1658,6 +1677,7 @@
             this.panel20.Name = "panel20";
             this.panel20.Size = new System.Drawing.Size(344, 180);
             this.panel20.TabIndex = 27;
+            this.panel20.Click += new System.EventHandler(this.panel20_Click);
             // 
             // label16
             // 
@@ -1677,6 +1697,7 @@
             this.panel21.Name = "panel21";
             this.panel21.Size = new System.Drawing.Size(344, 180);
             this.panel21.TabIndex = 26;
+            this.panel21.Click += new System.EventHandler(this.panel21_Click);
             // 
             // label15
             // 
@@ -1696,6 +1717,7 @@
             this.panel8.Name = "panel8";
             this.panel8.Size = new System.Drawing.Size(344, 180);
             this.panel8.TabIndex = 25;
+            this.panel8.Click += new System.EventHandler(this.panel8_Click);
             // 
             // label14
             // 
@@ -1715,6 +1737,7 @@
             this.panel9.Name = "panel9";
             this.panel9.Size = new System.Drawing.Size(344, 180);
             this.panel9.TabIndex = 24;
+            this.panel9.Click += new System.EventHandler(this.panel9_Click);
             // 
             // label13
             // 
@@ -1734,6 +1757,7 @@
             this.panel10.Name = "panel10";
             this.panel10.Size = new System.Drawing.Size(344, 180);
             this.panel10.TabIndex = 23;
+            this.panel10.Click += new System.EventHandler(this.panel10_Click);
             // 
             // label12
             // 
@@ -1753,6 +1777,7 @@
             this.panel11.Name = "panel11";
             this.panel11.Size = new System.Drawing.Size(344, 180);
             this.panel11.TabIndex = 22;
+            this.panel11.Click += new System.EventHandler(this.panel11_Click);
             // 
             // label11
             // 
@@ -1772,6 +1797,7 @@
             this.panel12.Name = "panel12";
             this.panel12.Size = new System.Drawing.Size(344, 180);
             this.panel12.TabIndex = 21;
+            this.panel12.Click += new System.EventHandler(this.panel12_Click);
             // 
             // label10
             // 
@@ -1791,6 +1817,7 @@
             this.panel13.Name = "panel13";
             this.panel13.Size = new System.Drawing.Size(344, 180);
             this.panel13.TabIndex = 20;
+            this.panel13.Click += new System.EventHandler(this.panel13_Click);
             // 
             // label9
             // 
@@ -1810,6 +1837,7 @@
             this.panel14.Name = "panel14";
             this.panel14.Size = new System.Drawing.Size(344, 180);
             this.panel14.TabIndex = 19;
+            this.panel14.Click += new System.EventHandler(this.panel14_Click);
             // 
             // label8
             // 
@@ -1829,6 +1857,7 @@
             this.panel7.Name = "panel7";
             this.panel7.Size = new System.Drawing.Size(344, 180);
             this.panel7.TabIndex = 18;
+            this.panel7.Click += new System.EventHandler(this.panel7_Click);
             // 
             // label7
             // 
@@ -1848,6 +1877,7 @@
             this.panel5.Name = "panel5";
             this.panel5.Size = new System.Drawing.Size(344, 180);
             this.panel5.TabIndex = 17;
+            this.panel5.Click += new System.EventHandler(this.panel5_Click);
             // 
             // label6
             // 
@@ -1867,6 +1897,7 @@
             this.panel6.Name = "panel6";
             this.panel6.Size = new System.Drawing.Size(344, 180);
             this.panel6.TabIndex = 16;
+            this.panel6.Click += new System.EventHandler(this.panel6_Click);
             // 
             // label5
             // 
@@ -1886,6 +1917,7 @@
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(344, 180);
             this.panel3.TabIndex = 15;
+            this.panel3.Click += new System.EventHandler(this.panel3_Click);
             // 
             // label4
             // 
@@ -1905,6 +1937,7 @@
             this.panel4.Name = "panel4";
             this.panel4.Size = new System.Drawing.Size(344, 180);
             this.panel4.TabIndex = 14;
+            this.panel4.Click += new System.EventHandler(this.panel4_Click);
             // 
             // label3
             // 
@@ -11557,6 +11590,6 @@
         private System.Windows.Forms.Label label337;
         private System.Windows.Forms.Label label336;
         private System.Windows.Forms.Label label335;
-        private System.Windows.Forms.Button btnViewEvents;
+        private System.Windows.Forms.Button btnOpenEvents;
     }
 }

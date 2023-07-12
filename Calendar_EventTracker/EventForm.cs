@@ -1,4 +1,6 @@
-﻿using System;
+﻿using MaterialSkin.Controls;
+using MaterialSkin;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -10,7 +12,7 @@ using System.Windows.Forms;
 
 namespace Calendar_EventTracker
 {
-    public partial class EventForm : Form
+    public partial class EventForm : MaterialForm
     {
         public EventForm()
         {
@@ -23,7 +25,7 @@ namespace Calendar_EventTracker
 
         }
 
-        public void btnSave_Click(object sender, EventArgs e)
+        private void btnSaveEvent_Click(object sender, EventArgs e)
         {
             Events newEvent = new Events();
 
@@ -40,7 +42,6 @@ namespace Calendar_EventTracker
             txtLocation.Clear();
 
             this.Close();
-
         }
     }
 }
