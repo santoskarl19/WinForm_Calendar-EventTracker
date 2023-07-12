@@ -94,7 +94,6 @@
             this.panel2 = new System.Windows.Forms.Panel();
             this.label2 = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.lblJan1 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.materialLabel7 = new MaterialSkin.Controls.MaterialLabel();
             this.materialLabel6 = new MaterialSkin.Controls.MaterialLabel();
@@ -891,6 +890,7 @@
             this.button10 = new System.Windows.Forms.Button();
             this.pictureBox23 = new System.Windows.Forms.PictureBox();
             this.button11 = new System.Windows.Forms.Button();
+            this.txtJan1 = new MaterialSkin.Controls.MaterialSingleLineTextField();
             this.materialTabControl1.SuspendLayout();
             this.dayContainerTabPage.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -2002,21 +2002,13 @@
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.LightGray;
-            this.panel1.Controls.Add(this.lblJan1);
+            this.panel1.Controls.Add(this.txtJan1);
             this.panel1.Controls.Add(this.label1);
             this.panel1.Location = new System.Drawing.Point(17, 79);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(344, 180);
             this.panel1.TabIndex = 7;
             this.panel1.Click += new System.EventHandler(this.panel1_Click);
-            // 
-            // lblJan1
-            // 
-            this.lblJan1.Location = new System.Drawing.Point(41, 111);
-            this.lblJan1.Name = "lblJan1";
-            this.lblJan1.Size = new System.Drawing.Size(256, 37);
-            this.lblJan1.TabIndex = 1;
-            this.lblJan1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // label1
             // 
@@ -10291,6 +10283,23 @@
             this.button11.Text = "View Events";
             this.button11.UseVisualStyleBackColor = false;
             // 
+            // txtJan1
+            // 
+            this.txtJan1.Depth = 0;
+            this.txtJan1.Hint = "";
+            this.txtJan1.Location = new System.Drawing.Point(131, 97);
+            this.txtJan1.MaxLength = 32767;
+            this.txtJan1.MouseState = MaterialSkin.MouseState.HOVER;
+            this.txtJan1.Name = "txtJan1";
+            this.txtJan1.PasswordChar = '\0';
+            this.txtJan1.SelectedText = "";
+            this.txtJan1.SelectionLength = 0;
+            this.txtJan1.SelectionStart = 0;
+            this.txtJan1.Size = new System.Drawing.Size(75, 41);
+            this.txtJan1.TabIndex = 1;
+            this.txtJan1.TabStop = false;
+            this.txtJan1.UseSystemPasswordChar = false;
+            // 
             // MainPage
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
@@ -11913,7 +11922,6 @@
         private System.Windows.Forms.Label label336;
         private System.Windows.Forms.Label label335;
         private System.Windows.Forms.Button btnOpenEvents;
-        private System.Windows.Forms.Label lblJan1;
         private System.Windows.Forms.PictureBox pictureBox14;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button button2;
@@ -11934,5 +11942,6 @@
         private System.Windows.Forms.Button button10;
         private System.Windows.Forms.PictureBox pictureBox23;
         private System.Windows.Forms.Button button11;
+        private MaterialSkin.Controls.MaterialSingleLineTextField txtJan1;
     }
 }
