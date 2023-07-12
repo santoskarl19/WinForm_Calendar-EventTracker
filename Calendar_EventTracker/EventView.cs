@@ -37,11 +37,11 @@ namespace Calendar_EventTracker
                 GlobalData.EventList.RemoveAt(dataGridView1.CurrentRow.Index);
 
                 // display message once record is deleted
-                MessageBox.Show("Record Successfully Deleted!");
+                MessageBox.Show("Event Successfully Deleted!");
             }
             else if (result == DialogResult.No)
             {
-                MessageBox.Show("Record Not Deleted!");
+                MessageBox.Show("Event Not Deleted!");
             }
         }
     }
