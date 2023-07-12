@@ -26,7 +26,6 @@ namespace Calendar_EventTracker
         }
 
         // January
-
         private void btnOpenEvents_Click(object sender, EventArgs e)
         {
             EventView eventView = new EventView();
@@ -37,6 +36,8 @@ namespace Calendar_EventTracker
         {
             EventForm eventForm = new EventForm();
             eventForm.ShowDialog();
+
+            // once activated = create textbox
         }
 
         private void panel2_Click(object sender, EventArgs e)
