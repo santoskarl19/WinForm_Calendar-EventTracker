@@ -14,10 +14,9 @@ namespace Calendar_EventTracker
 {
     public partial class EventForm : MaterialForm
     {
-        public EventForm()
+        public EventForm() 
         {
             InitializeComponent();
-
         }
 
         private void EventForm_Load(object sender, EventArgs e)
