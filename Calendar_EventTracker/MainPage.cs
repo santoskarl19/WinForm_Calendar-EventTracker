@@ -35,8 +35,11 @@ namespace Calendar_EventTracker
         // January
         public void panel1_Click(object sender, EventArgs e)
         {
-            EventForm eventForm = new EventForm(); 
+
+            EventForm eventForm = new EventForm();
+
             eventForm.ShowDialog();
+
         }
 
         private void panel2_Click(object sender, EventArgs e)

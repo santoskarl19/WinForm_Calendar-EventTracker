@@ -31,7 +31,6 @@ namespace Calendar_EventTracker
             newEvent.Event_Name = txtEvent.Text;
             newEvent.Location = txtLocation.Text;
             newEvent.Details = txtDetails.Text;
-
             GlobalData.EventList.Add(newEvent);
 
             MessageBox.Show("Event added!");

@@ -870,6 +870,7 @@
             this.materialLabel83 = new MaterialSkin.Controls.MaterialLabel();
             this.materialLabel84 = new MaterialSkin.Controls.MaterialLabel();
             this.lblYear = new MaterialSkin.Controls.MaterialLabel();
+            this.lblJan1 = new System.Windows.Forms.Label();
             this.materialTabControl1.SuspendLayout();
             this.dayContainerTabPage.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -1972,6 +1973,7 @@
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.LightGray;
+            this.panel1.Controls.Add(this.lblJan1);
             this.panel1.Controls.Add(this.label1);
             this.panel1.Location = new System.Drawing.Point(17, 79);
             this.panel1.Name = "panel1";
@@ -9977,6 +9979,14 @@
             this.lblYear.TabIndex = 2;
             this.lblYear.Text = "2023";
             // 
+            // lblJan1
+            // 
+            this.lblJan1.Location = new System.Drawing.Point(41, 111);
+            this.lblJan1.Name = "lblJan1";
+            this.lblJan1.Size = new System.Drawing.Size(256, 37);
+            this.lblJan1.TabIndex = 1;
+            this.lblJan1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
             // MainPage
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
@@ -11590,5 +11600,6 @@
         private System.Windows.Forms.Label label336;
         private System.Windows.Forms.Label label335;
         private System.Windows.Forms.Button btnOpenEvents;
+        private System.Windows.Forms.Label lblJan1;
     }
 }
