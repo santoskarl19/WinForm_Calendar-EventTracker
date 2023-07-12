@@ -94,6 +94,7 @@
             this.panel2 = new System.Windows.Forms.Panel();
             this.label2 = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.lblJan1 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.materialLabel7 = new MaterialSkin.Controls.MaterialLabel();
             this.materialLabel6 = new MaterialSkin.Controls.MaterialLabel();
@@ -870,7 +871,26 @@
             this.materialLabel83 = new MaterialSkin.Controls.MaterialLabel();
             this.materialLabel84 = new MaterialSkin.Controls.MaterialLabel();
             this.lblYear = new MaterialSkin.Controls.MaterialLabel();
-            this.lblJan1 = new System.Windows.Forms.Label();
+            this.pictureBox14 = new System.Windows.Forms.PictureBox();
+            this.button1 = new System.Windows.Forms.Button();
+            this.button2 = new System.Windows.Forms.Button();
+            this.pictureBox16 = new System.Windows.Forms.PictureBox();
+            this.button3 = new System.Windows.Forms.Button();
+            this.pictureBox17 = new System.Windows.Forms.PictureBox();
+            this.button4 = new System.Windows.Forms.Button();
+            this.pictureBox18 = new System.Windows.Forms.PictureBox();
+            this.button5 = new System.Windows.Forms.Button();
+            this.pictureBox19 = new System.Windows.Forms.PictureBox();
+            this.button6 = new System.Windows.Forms.Button();
+            this.pictureBox20 = new System.Windows.Forms.PictureBox();
+            this.button7 = new System.Windows.Forms.Button();
+            this.button8 = new System.Windows.Forms.Button();
+            this.pictureBox21 = new System.Windows.Forms.PictureBox();
+            this.button9 = new System.Windows.Forms.Button();
+            this.pictureBox22 = new System.Windows.Forms.PictureBox();
+            this.button10 = new System.Windows.Forms.Button();
+            this.pictureBox23 = new System.Windows.Forms.PictureBox();
+            this.button11 = new System.Windows.Forms.Button();
             this.materialTabControl1.SuspendLayout();
             this.dayContainerTabPage.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -1261,6 +1281,15 @@
             this.panel497.SuspendLayout();
             this.panel498.SuspendLayout();
             this.panel499.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox14)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox16)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox17)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox18)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox19)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox20)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox21)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox22)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox23)).BeginInit();
             this.SuspendLayout();
             // 
             // materialTabSelector1
@@ -1354,7 +1383,7 @@
             this.btnOpenEvents.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnOpenEvents.Font = new System.Drawing.Font("Century Gothic", 10.125F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnOpenEvents.ForeColor = System.Drawing.Color.White;
-            this.btnOpenEvents.Location = new System.Drawing.Point(2158, 1066);
+            this.btnOpenEvents.Location = new System.Drawing.Point(2166, 1090);
             this.btnOpenEvents.Name = "btnOpenEvents";
             this.btnOpenEvents.Size = new System.Drawing.Size(352, 64);
             this.btnOpenEvents.TabIndex = 56;
@@ -1981,6 +2010,14 @@
             this.panel1.TabIndex = 7;
             this.panel1.Click += new System.EventHandler(this.panel1_Click);
             // 
+            // lblJan1
+            // 
+            this.lblJan1.Location = new System.Drawing.Point(41, 111);
+            this.lblJan1.Name = "lblJan1";
+            this.lblJan1.Size = new System.Drawing.Size(256, 37);
+            this.lblJan1.TabIndex = 1;
+            this.lblJan1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
             // label1
             // 
             this.label1.AutoSize = true;
@@ -2077,6 +2114,7 @@
             // 
             // tabPage2
             // 
+            this.tabPage2.Controls.Add(this.button2);
             this.tabPage2.Controls.Add(this.pictureBox2);
             this.tabPage2.Controls.Add(this.panel54);
             this.tabPage2.Controls.Add(this.panel55);
@@ -2137,6 +2175,7 @@
             this.panel54.Name = "panel54";
             this.panel54.Size = new System.Drawing.Size(344, 180);
             this.panel54.TabIndex = 92;
+            this.panel54.Click += new System.EventHandler(this.panel54_Click);
             // 
             // label57
             // 
@@ -2156,6 +2195,7 @@
             this.panel55.Name = "panel55";
             this.panel55.Size = new System.Drawing.Size(344, 180);
             this.panel55.TabIndex = 91;
+            this.panel55.Click += new System.EventHandler(this.panel55_Click);
             // 
             // label58
             // 
@@ -2175,6 +2215,7 @@
             this.panel56.Name = "panel56";
             this.panel56.Size = new System.Drawing.Size(344, 180);
             this.panel56.TabIndex = 90;
+            this.panel56.Click += new System.EventHandler(this.panel56_Click);
             // 
             // label59
             // 
@@ -2194,6 +2235,7 @@
             this.panel57.Name = "panel57";
             this.panel57.Size = new System.Drawing.Size(344, 180);
             this.panel57.TabIndex = 89;
+            this.panel57.Click += new System.EventHandler(this.panel57_Click);
             // 
             // label56
             // 
@@ -2213,6 +2255,7 @@
             this.panel58.Name = "panel58";
             this.panel58.Size = new System.Drawing.Size(344, 180);
             this.panel58.TabIndex = 88;
+            this.panel58.Click += new System.EventHandler(this.panel58_Click);
             // 
             // label55
             // 
@@ -2232,6 +2275,7 @@
             this.panel59.Name = "panel59";
             this.panel59.Size = new System.Drawing.Size(344, 180);
             this.panel59.TabIndex = 87;
+            this.panel59.Click += new System.EventHandler(this.panel59_Click);
             // 
             // label54
             // 
@@ -2251,6 +2295,7 @@
             this.panel60.Name = "panel60";
             this.panel60.Size = new System.Drawing.Size(344, 180);
             this.panel60.TabIndex = 86;
+            this.panel60.Click += new System.EventHandler(this.panel60_Click);
             // 
             // label53
             // 
@@ -2270,6 +2315,7 @@
             this.panel61.Name = "panel61";
             this.panel61.Size = new System.Drawing.Size(344, 180);
             this.panel61.TabIndex = 85;
+            this.panel61.Click += new System.EventHandler(this.panel61_Click);
             // 
             // label52
             // 
@@ -2289,6 +2335,7 @@
             this.panel62.Name = "panel62";
             this.panel62.Size = new System.Drawing.Size(344, 180);
             this.panel62.TabIndex = 84;
+            this.panel62.Click += new System.EventHandler(this.panel62_Click);
             // 
             // label51
             // 
@@ -2308,6 +2355,7 @@
             this.panel63.Name = "panel63";
             this.panel63.Size = new System.Drawing.Size(344, 180);
             this.panel63.TabIndex = 83;
+            this.panel63.Click += new System.EventHandler(this.panel63_Click);
             // 
             // label50
             // 
@@ -2327,6 +2375,7 @@
             this.panel64.Name = "panel64";
             this.panel64.Size = new System.Drawing.Size(344, 180);
             this.panel64.TabIndex = 82;
+            this.panel64.Click += new System.EventHandler(this.panel64_Click);
             // 
             // label43
             // 
@@ -2346,6 +2395,7 @@
             this.panel65.Name = "panel65";
             this.panel65.Size = new System.Drawing.Size(344, 180);
             this.panel65.TabIndex = 81;
+            this.panel65.Click += new System.EventHandler(this.panel65_Click);
             // 
             // label44
             // 
@@ -2365,6 +2415,7 @@
             this.panel66.Name = "panel66";
             this.panel66.Size = new System.Drawing.Size(344, 180);
             this.panel66.TabIndex = 80;
+            this.panel66.Click += new System.EventHandler(this.panel66_Click);
             // 
             // label45
             // 
@@ -2384,6 +2435,7 @@
             this.panel67.Name = "panel67";
             this.panel67.Size = new System.Drawing.Size(344, 180);
             this.panel67.TabIndex = 79;
+            this.panel67.Click += new System.EventHandler(this.panel67_Click);
             // 
             // label46
             // 
@@ -2403,6 +2455,7 @@
             this.panel68.Name = "panel68";
             this.panel68.Size = new System.Drawing.Size(344, 180);
             this.panel68.TabIndex = 78;
+            this.panel68.Click += new System.EventHandler(this.panel68_Click);
             // 
             // label47
             // 
@@ -2422,6 +2475,7 @@
             this.panel69.Name = "panel69";
             this.panel69.Size = new System.Drawing.Size(344, 180);
             this.panel69.TabIndex = 77;
+            this.panel69.Click += new System.EventHandler(this.panel69_Click);
             // 
             // label48
             // 
@@ -2441,6 +2495,7 @@
             this.panel70.Name = "panel70";
             this.panel70.Size = new System.Drawing.Size(344, 180);
             this.panel70.TabIndex = 76;
+            this.panel70.Click += new System.EventHandler(this.panel70_Click);
             // 
             // label49
             // 
@@ -2460,6 +2515,7 @@
             this.panel71.Name = "panel71";
             this.panel71.Size = new System.Drawing.Size(344, 180);
             this.panel71.TabIndex = 75;
+            this.panel71.Click += new System.EventHandler(this.panel71_Click);
             // 
             // label42
             // 
@@ -2479,6 +2535,7 @@
             this.panel72.Name = "panel72";
             this.panel72.Size = new System.Drawing.Size(344, 180);
             this.panel72.TabIndex = 74;
+            this.panel72.Click += new System.EventHandler(this.panel72_Click);
             // 
             // label41
             // 
@@ -2498,6 +2555,7 @@
             this.panel73.Name = "panel73";
             this.panel73.Size = new System.Drawing.Size(344, 180);
             this.panel73.TabIndex = 73;
+            this.panel73.Click += new System.EventHandler(this.panel73_Click);
             // 
             // label40
             // 
@@ -2517,6 +2575,7 @@
             this.panel74.Name = "panel74";
             this.panel74.Size = new System.Drawing.Size(344, 180);
             this.panel74.TabIndex = 72;
+            this.panel74.Click += new System.EventHandler(this.panel74_Click);
             // 
             // label39
             // 
@@ -2536,6 +2595,7 @@
             this.panel75.Name = "panel75";
             this.panel75.Size = new System.Drawing.Size(344, 180);
             this.panel75.TabIndex = 71;
+            this.panel75.Click += new System.EventHandler(this.panel75_Click);
             // 
             // label38
             // 
@@ -2555,6 +2615,7 @@
             this.panel76.Name = "panel76";
             this.panel76.Size = new System.Drawing.Size(344, 180);
             this.panel76.TabIndex = 70;
+            this.panel76.Click += new System.EventHandler(this.panel76_Click);
             // 
             // label37
             // 
@@ -2574,6 +2635,7 @@
             this.panel77.Name = "panel77";
             this.panel77.Size = new System.Drawing.Size(344, 180);
             this.panel77.TabIndex = 69;
+            this.panel77.Click += new System.EventHandler(this.panel77_Click);
             // 
             // label36
             // 
@@ -2593,6 +2655,7 @@
             this.panel78.Name = "panel78";
             this.panel78.Size = new System.Drawing.Size(344, 180);
             this.panel78.TabIndex = 68;
+            this.panel78.Click += new System.EventHandler(this.panel78_Click);
             // 
             // label35
             // 
@@ -2612,6 +2675,7 @@
             this.panel79.Name = "panel79";
             this.panel79.Size = new System.Drawing.Size(344, 180);
             this.panel79.TabIndex = 67;
+            this.panel79.Click += new System.EventHandler(this.panel79_Click);
             // 
             // label34
             // 
@@ -2631,6 +2695,7 @@
             this.panel80.Name = "panel80";
             this.panel80.Size = new System.Drawing.Size(344, 180);
             this.panel80.TabIndex = 66;
+            this.panel80.Click += new System.EventHandler(this.panel80_Click);
             // 
             // label33
             // 
@@ -2650,6 +2715,7 @@
             this.panel81.Name = "panel81";
             this.panel81.Size = new System.Drawing.Size(344, 180);
             this.panel81.TabIndex = 65;
+            this.panel81.Click += new System.EventHandler(this.panel81_Click);
             // 
             // label32
             // 
@@ -2747,6 +2813,8 @@
             // 
             // tabPage3
             // 
+            this.tabPage3.Controls.Add(this.pictureBox16);
+            this.tabPage3.Controls.Add(this.button3);
             this.tabPage3.Controls.Add(this.pictureBox3);
             this.tabPage3.Controls.Add(this.panel93);
             this.tabPage3.Controls.Add(this.panel94);
@@ -3477,6 +3545,8 @@
             // 
             // tabPage4
             // 
+            this.tabPage4.Controls.Add(this.pictureBox14);
+            this.tabPage4.Controls.Add(this.button1);
             this.tabPage4.Controls.Add(this.pictureBox4);
             this.tabPage4.Controls.Add(this.panel133);
             this.tabPage4.Controls.Add(this.panel134);
@@ -4187,6 +4257,8 @@
             // 
             // tabPage5
             // 
+            this.tabPage5.Controls.Add(this.pictureBox17);
+            this.tabPage5.Controls.Add(this.button4);
             this.tabPage5.Controls.Add(this.pictureBox5);
             this.tabPage5.Controls.Add(this.panel179);
             this.tabPage5.Controls.Add(this.panel180);
@@ -4917,6 +4989,8 @@
             // 
             // tabPage6
             // 
+            this.tabPage6.Controls.Add(this.pictureBox18);
+            this.tabPage6.Controls.Add(this.button5);
             this.tabPage6.Controls.Add(this.pictureBox6);
             this.tabPage6.Controls.Add(this.panel219);
             this.tabPage6.Controls.Add(this.panel220);
@@ -5627,6 +5701,8 @@
             // 
             // tabPage7
             // 
+            this.tabPage7.Controls.Add(this.pictureBox19);
+            this.tabPage7.Controls.Add(this.button6);
             this.tabPage7.Controls.Add(this.pictureBox7);
             this.tabPage7.Controls.Add(this.panel258);
             this.tabPage7.Controls.Add(this.panel259);
@@ -6357,6 +6433,8 @@
             // 
             // tabPage8
             // 
+            this.tabPage8.Controls.Add(this.pictureBox20);
+            this.tabPage8.Controls.Add(this.button7);
             this.tabPage8.Controls.Add(this.pictureBox8);
             this.tabPage8.Controls.Add(this.panel304);
             this.tabPage8.Controls.Add(this.panel305);
@@ -7087,6 +7165,7 @@
             // 
             // tabPage9
             // 
+            this.tabPage9.Controls.Add(this.button8);
             this.tabPage9.Controls.Add(this.pictureBox9);
             this.tabPage9.Controls.Add(this.panel344);
             this.tabPage9.Controls.Add(this.panel345);
@@ -7797,6 +7876,8 @@
             // 
             // tabPage10
             // 
+            this.tabPage10.Controls.Add(this.pictureBox21);
+            this.tabPage10.Controls.Add(this.button9);
             this.tabPage10.Controls.Add(this.pictureBox10);
             this.tabPage10.Controls.Add(this.panel390);
             this.tabPage10.Controls.Add(this.panel391);
@@ -8527,6 +8608,8 @@
             // 
             // tabPage11
             // 
+            this.tabPage11.Controls.Add(this.pictureBox22);
+            this.tabPage11.Controls.Add(this.button10);
             this.tabPage11.Controls.Add(this.pictureBox11);
             this.tabPage11.Controls.Add(this.panel430);
             this.tabPage11.Controls.Add(this.panel431);
@@ -9237,6 +9320,8 @@
             // 
             // tabPage12
             // 
+            this.tabPage12.Controls.Add(this.pictureBox23);
+            this.tabPage12.Controls.Add(this.button11);
             this.tabPage12.Controls.Add(this.pictureBox12);
             this.tabPage12.Controls.Add(this.panel469);
             this.tabPage12.Controls.Add(this.panel470);
@@ -9979,13 +10064,232 @@
             this.lblYear.TabIndex = 2;
             this.lblYear.Text = "2023";
             // 
-            // lblJan1
+            // pictureBox14
             // 
-            this.lblJan1.Location = new System.Drawing.Point(41, 111);
-            this.lblJan1.Name = "lblJan1";
-            this.lblJan1.Size = new System.Drawing.Size(256, 37);
-            this.lblJan1.TabIndex = 1;
-            this.lblJan1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.pictureBox14.Location = new System.Drawing.Point(2166, 1047);
+            this.pictureBox14.Name = "pictureBox14";
+            this.pictureBox14.Size = new System.Drawing.Size(105, 233);
+            this.pictureBox14.TabIndex = 156;
+            this.pictureBox14.TabStop = false;
+            // 
+            // button1
+            // 
+            this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(128)))), ((int)(((byte)(185)))));
+            this.button1.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button1.Font = new System.Drawing.Font("Century Gothic", 10.125F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.ForeColor = System.Drawing.Color.White;
+            this.button1.Location = new System.Drawing.Point(2166, 1286);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(352, 64);
+            this.button1.TabIndex = 155;
+            this.button1.Text = "View Events";
+            this.button1.UseVisualStyleBackColor = false;
+            // 
+            // button2
+            // 
+            this.button2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(128)))), ((int)(((byte)(185)))));
+            this.button2.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button2.Font = new System.Drawing.Font("Century Gothic", 10.125F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button2.ForeColor = System.Drawing.Color.White;
+            this.button2.Location = new System.Drawing.Point(2166, 1090);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(352, 64);
+            this.button2.TabIndex = 105;
+            this.button2.Text = "View Events";
+            this.button2.UseVisualStyleBackColor = false;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
+            // 
+            // pictureBox16
+            // 
+            this.pictureBox16.Location = new System.Drawing.Point(2166, 851);
+            this.pictureBox16.Name = "pictureBox16";
+            this.pictureBox16.Size = new System.Drawing.Size(105, 233);
+            this.pictureBox16.TabIndex = 156;
+            this.pictureBox16.TabStop = false;
+            // 
+            // button3
+            // 
+            this.button3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(128)))), ((int)(((byte)(185)))));
+            this.button3.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button3.Font = new System.Drawing.Font("Century Gothic", 10.125F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button3.ForeColor = System.Drawing.Color.White;
+            this.button3.Location = new System.Drawing.Point(2166, 1090);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(352, 64);
+            this.button3.TabIndex = 155;
+            this.button3.Text = "View Events";
+            this.button3.UseVisualStyleBackColor = false;
+            // 
+            // pictureBox17
+            // 
+            this.pictureBox17.Location = new System.Drawing.Point(2166, 851);
+            this.pictureBox17.Name = "pictureBox17";
+            this.pictureBox17.Size = new System.Drawing.Size(105, 233);
+            this.pictureBox17.TabIndex = 156;
+            this.pictureBox17.TabStop = false;
+            // 
+            // button4
+            // 
+            this.button4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(128)))), ((int)(((byte)(185)))));
+            this.button4.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button4.Font = new System.Drawing.Font("Century Gothic", 10.125F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button4.ForeColor = System.Drawing.Color.White;
+            this.button4.Location = new System.Drawing.Point(2166, 1090);
+            this.button4.Name = "button4";
+            this.button4.Size = new System.Drawing.Size(352, 64);
+            this.button4.TabIndex = 155;
+            this.button4.Text = "View Events";
+            this.button4.UseVisualStyleBackColor = false;
+            // 
+            // pictureBox18
+            // 
+            this.pictureBox18.Location = new System.Drawing.Point(2166, 851);
+            this.pictureBox18.Name = "pictureBox18";
+            this.pictureBox18.Size = new System.Drawing.Size(105, 233);
+            this.pictureBox18.TabIndex = 206;
+            this.pictureBox18.TabStop = false;
+            // 
+            // button5
+            // 
+            this.button5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(128)))), ((int)(((byte)(185)))));
+            this.button5.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button5.Font = new System.Drawing.Font("Century Gothic", 10.125F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button5.ForeColor = System.Drawing.Color.White;
+            this.button5.Location = new System.Drawing.Point(2166, 1090);
+            this.button5.Name = "button5";
+            this.button5.Size = new System.Drawing.Size(352, 64);
+            this.button5.TabIndex = 205;
+            this.button5.Text = "View Events";
+            this.button5.UseVisualStyleBackColor = false;
+            // 
+            // pictureBox19
+            // 
+            this.pictureBox19.Location = new System.Drawing.Point(2166, 1047);
+            this.pictureBox19.Name = "pictureBox19";
+            this.pictureBox19.Size = new System.Drawing.Size(105, 233);
+            this.pictureBox19.TabIndex = 206;
+            this.pictureBox19.TabStop = false;
+            // 
+            // button6
+            // 
+            this.button6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(128)))), ((int)(((byte)(185)))));
+            this.button6.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button6.Font = new System.Drawing.Font("Century Gothic", 10.125F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button6.ForeColor = System.Drawing.Color.White;
+            this.button6.Location = new System.Drawing.Point(2166, 1286);
+            this.button6.Name = "button6";
+            this.button6.Size = new System.Drawing.Size(352, 64);
+            this.button6.TabIndex = 205;
+            this.button6.Text = "View Events";
+            this.button6.UseVisualStyleBackColor = false;
+            // 
+            // pictureBox20
+            // 
+            this.pictureBox20.Location = new System.Drawing.Point(2166, 851);
+            this.pictureBox20.Name = "pictureBox20";
+            this.pictureBox20.Size = new System.Drawing.Size(105, 233);
+            this.pictureBox20.TabIndex = 206;
+            this.pictureBox20.TabStop = false;
+            // 
+            // button7
+            // 
+            this.button7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(128)))), ((int)(((byte)(185)))));
+            this.button7.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button7.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button7.Font = new System.Drawing.Font("Century Gothic", 10.125F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button7.ForeColor = System.Drawing.Color.White;
+            this.button7.Location = new System.Drawing.Point(2166, 1090);
+            this.button7.Name = "button7";
+            this.button7.Size = new System.Drawing.Size(352, 64);
+            this.button7.TabIndex = 205;
+            this.button7.Text = "View Events";
+            this.button7.UseVisualStyleBackColor = false;
+            // 
+            // button8
+            // 
+            this.button8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(128)))), ((int)(((byte)(185)))));
+            this.button8.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button8.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button8.Font = new System.Drawing.Font("Century Gothic", 10.125F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button8.ForeColor = System.Drawing.Color.White;
+            this.button8.Location = new System.Drawing.Point(2166, 1117);
+            this.button8.Name = "button8";
+            this.button8.Size = new System.Drawing.Size(352, 64);
+            this.button8.TabIndex = 205;
+            this.button8.Text = "View Events";
+            this.button8.UseVisualStyleBackColor = false;
+            // 
+            // pictureBox21
+            // 
+            this.pictureBox21.Location = new System.Drawing.Point(2166, 851);
+            this.pictureBox21.Name = "pictureBox21";
+            this.pictureBox21.Size = new System.Drawing.Size(105, 233);
+            this.pictureBox21.TabIndex = 208;
+            this.pictureBox21.TabStop = false;
+            // 
+            // button9
+            // 
+            this.button9.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(128)))), ((int)(((byte)(185)))));
+            this.button9.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button9.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button9.Font = new System.Drawing.Font("Century Gothic", 10.125F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button9.ForeColor = System.Drawing.Color.White;
+            this.button9.Location = new System.Drawing.Point(2166, 1090);
+            this.button9.Name = "button9";
+            this.button9.Size = new System.Drawing.Size(352, 64);
+            this.button9.TabIndex = 207;
+            this.button9.Text = "View Events";
+            this.button9.UseVisualStyleBackColor = false;
+            // 
+            // pictureBox22
+            // 
+            this.pictureBox22.Location = new System.Drawing.Point(2166, 851);
+            this.pictureBox22.Name = "pictureBox22";
+            this.pictureBox22.Size = new System.Drawing.Size(105, 233);
+            this.pictureBox22.TabIndex = 208;
+            this.pictureBox22.TabStop = false;
+            // 
+            // button10
+            // 
+            this.button10.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(128)))), ((int)(((byte)(185)))));
+            this.button10.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button10.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button10.Font = new System.Drawing.Font("Century Gothic", 10.125F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button10.ForeColor = System.Drawing.Color.White;
+            this.button10.Location = new System.Drawing.Point(2166, 1090);
+            this.button10.Name = "button10";
+            this.button10.Size = new System.Drawing.Size(352, 64);
+            this.button10.TabIndex = 207;
+            this.button10.Text = "View Events";
+            this.button10.UseVisualStyleBackColor = false;
+            // 
+            // pictureBox23
+            // 
+            this.pictureBox23.Location = new System.Drawing.Point(2166, 1047);
+            this.pictureBox23.Name = "pictureBox23";
+            this.pictureBox23.Size = new System.Drawing.Size(105, 233);
+            this.pictureBox23.TabIndex = 208;
+            this.pictureBox23.TabStop = false;
+            // 
+            // button11
+            // 
+            this.button11.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(128)))), ((int)(((byte)(185)))));
+            this.button11.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button11.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button11.Font = new System.Drawing.Font("Century Gothic", 10.125F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button11.ForeColor = System.Drawing.Color.White;
+            this.button11.Location = new System.Drawing.Point(2166, 1286);
+            this.button11.Name = "button11";
+            this.button11.Size = new System.Drawing.Size(352, 64);
+            this.button11.TabIndex = 207;
+            this.button11.Text = "View Events";
+            this.button11.UseVisualStyleBackColor = false;
             // 
             // MainPage
             // 
@@ -10752,6 +11056,15 @@
             this.panel498.PerformLayout();
             this.panel499.ResumeLayout(false);
             this.panel499.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox14)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox16)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox17)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox18)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox19)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox20)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox21)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox22)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox23)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -11601,5 +11914,25 @@
         private System.Windows.Forms.Label label335;
         private System.Windows.Forms.Button btnOpenEvents;
         private System.Windows.Forms.Label lblJan1;
+        private System.Windows.Forms.PictureBox pictureBox14;
+        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.PictureBox pictureBox16;
+        private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.PictureBox pictureBox17;
+        private System.Windows.Forms.Button button4;
+        private System.Windows.Forms.PictureBox pictureBox18;
+        private System.Windows.Forms.Button button5;
+        private System.Windows.Forms.PictureBox pictureBox19;
+        private System.Windows.Forms.Button button6;
+        private System.Windows.Forms.PictureBox pictureBox20;
+        private System.Windows.Forms.Button button7;
+        private System.Windows.Forms.Button button8;
+        private System.Windows.Forms.PictureBox pictureBox21;
+        private System.Windows.Forms.Button button9;
+        private System.Windows.Forms.PictureBox pictureBox22;
+        private System.Windows.Forms.Button button10;
+        private System.Windows.Forms.PictureBox pictureBox23;
+        private System.Windows.Forms.Button button11;
     }
 }
