@@ -94,6 +94,7 @@
             this.panel2 = new System.Windows.Forms.Panel();
             this.label2 = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.txtEventMarker = new MaterialSkin.Controls.MaterialSingleLineTextField();
             this.label1 = new System.Windows.Forms.Label();
             this.materialLabel7 = new MaterialSkin.Controls.MaterialLabel();
             this.materialLabel6 = new MaterialSkin.Controls.MaterialLabel();
@@ -103,6 +104,7 @@
             this.materialLabel2 = new MaterialSkin.Controls.MaterialLabel();
             this.materialLabel1 = new MaterialSkin.Controls.MaterialLabel();
             this.tabPage2 = new System.Windows.Forms.TabPage();
+            this.button2 = new System.Windows.Forms.Button();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.panel54 = new System.Windows.Forms.Panel();
             this.label57 = new System.Windows.Forms.Label();
@@ -168,6 +170,8 @@
             this.materialLabel13 = new MaterialSkin.Controls.MaterialLabel();
             this.materialLabel14 = new MaterialSkin.Controls.MaterialLabel();
             this.tabPage3 = new System.Windows.Forms.TabPage();
+            this.pictureBox16 = new System.Windows.Forms.PictureBox();
+            this.button3 = new System.Windows.Forms.Button();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.panel93 = new System.Windows.Forms.Panel();
             this.label90 = new System.Windows.Forms.Label();
@@ -239,6 +243,8 @@
             this.materialLabel20 = new MaterialSkin.Controls.MaterialLabel();
             this.materialLabel21 = new MaterialSkin.Controls.MaterialLabel();
             this.tabPage4 = new System.Windows.Forms.TabPage();
+            this.pictureBox14 = new System.Windows.Forms.PictureBox();
+            this.button1 = new System.Windows.Forms.Button();
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
             this.panel133 = new System.Windows.Forms.Panel();
             this.label120 = new System.Windows.Forms.Label();
@@ -308,6 +314,8 @@
             this.materialLabel27 = new MaterialSkin.Controls.MaterialLabel();
             this.materialLabel28 = new MaterialSkin.Controls.MaterialLabel();
             this.tabPage5 = new System.Windows.Forms.TabPage();
+            this.pictureBox17 = new System.Windows.Forms.PictureBox();
+            this.button4 = new System.Windows.Forms.Button();
             this.pictureBox5 = new System.Windows.Forms.PictureBox();
             this.panel179 = new System.Windows.Forms.Panel();
             this.label151 = new System.Windows.Forms.Label();
@@ -379,6 +387,8 @@
             this.materialLabel34 = new MaterialSkin.Controls.MaterialLabel();
             this.materialLabel35 = new MaterialSkin.Controls.MaterialLabel();
             this.tabPage6 = new System.Windows.Forms.TabPage();
+            this.pictureBox18 = new System.Windows.Forms.PictureBox();
+            this.button5 = new System.Windows.Forms.Button();
             this.pictureBox6 = new System.Windows.Forms.PictureBox();
             this.panel219 = new System.Windows.Forms.Panel();
             this.label181 = new System.Windows.Forms.Label();
@@ -448,6 +458,8 @@
             this.materialLabel41 = new MaterialSkin.Controls.MaterialLabel();
             this.materialLabel42 = new MaterialSkin.Controls.MaterialLabel();
             this.tabPage7 = new System.Windows.Forms.TabPage();
+            this.pictureBox19 = new System.Windows.Forms.PictureBox();
+            this.button6 = new System.Windows.Forms.Button();
             this.pictureBox7 = new System.Windows.Forms.PictureBox();
             this.panel258 = new System.Windows.Forms.Panel();
             this.label212 = new System.Windows.Forms.Label();
@@ -519,6 +531,8 @@
             this.materialLabel48 = new MaterialSkin.Controls.MaterialLabel();
             this.materialLabel49 = new MaterialSkin.Controls.MaterialLabel();
             this.tabPage8 = new System.Windows.Forms.TabPage();
+            this.pictureBox20 = new System.Windows.Forms.PictureBox();
+            this.button7 = new System.Windows.Forms.Button();
             this.pictureBox8 = new System.Windows.Forms.PictureBox();
             this.panel304 = new System.Windows.Forms.Panel();
             this.label243 = new System.Windows.Forms.Label();
@@ -590,6 +604,7 @@
             this.materialLabel55 = new MaterialSkin.Controls.MaterialLabel();
             this.materialLabel56 = new MaterialSkin.Controls.MaterialLabel();
             this.tabPage9 = new System.Windows.Forms.TabPage();
+            this.button8 = new System.Windows.Forms.Button();
             this.pictureBox9 = new System.Windows.Forms.PictureBox();
             this.panel344 = new System.Windows.Forms.Panel();
             this.label273 = new System.Windows.Forms.Label();
@@ -659,6 +674,8 @@
             this.materialLabel62 = new MaterialSkin.Controls.MaterialLabel();
             this.materialLabel63 = new MaterialSkin.Controls.MaterialLabel();
             this.tabPage10 = new System.Windows.Forms.TabPage();
+            this.pictureBox21 = new System.Windows.Forms.PictureBox();
+            this.button9 = new System.Windows.Forms.Button();
             this.pictureBox10 = new System.Windows.Forms.PictureBox();
             this.panel390 = new System.Windows.Forms.Panel();
             this.label304 = new System.Windows.Forms.Label();
@@ -730,6 +747,8 @@
             this.materialLabel69 = new MaterialSkin.Controls.MaterialLabel();
             this.materialLabel70 = new MaterialSkin.Controls.MaterialLabel();
             this.tabPage11 = new System.Windows.Forms.TabPage();
+            this.pictureBox22 = new System.Windows.Forms.PictureBox();
+            this.button10 = new System.Windows.Forms.Button();
             this.pictureBox11 = new System.Windows.Forms.PictureBox();
             this.panel430 = new System.Windows.Forms.Panel();
             this.label334 = new System.Windows.Forms.Label();
@@ -799,6 +818,8 @@
             this.materialLabel76 = new MaterialSkin.Controls.MaterialLabel();
             this.materialLabel77 = new MaterialSkin.Controls.MaterialLabel();
             this.tabPage12 = new System.Windows.Forms.TabPage();
+            this.pictureBox23 = new System.Windows.Forms.PictureBox();
+            this.button11 = new System.Windows.Forms.Button();
             this.pictureBox12 = new System.Windows.Forms.PictureBox();
             this.panel469 = new System.Windows.Forms.Panel();
             this.label365 = new System.Windows.Forms.Label();
@@ -870,27 +891,6 @@
             this.materialLabel83 = new MaterialSkin.Controls.MaterialLabel();
             this.materialLabel84 = new MaterialSkin.Controls.MaterialLabel();
             this.lblYear = new MaterialSkin.Controls.MaterialLabel();
-            this.pictureBox14 = new System.Windows.Forms.PictureBox();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.pictureBox16 = new System.Windows.Forms.PictureBox();
-            this.button3 = new System.Windows.Forms.Button();
-            this.pictureBox17 = new System.Windows.Forms.PictureBox();
-            this.button4 = new System.Windows.Forms.Button();
-            this.pictureBox18 = new System.Windows.Forms.PictureBox();
-            this.button5 = new System.Windows.Forms.Button();
-            this.pictureBox19 = new System.Windows.Forms.PictureBox();
-            this.button6 = new System.Windows.Forms.Button();
-            this.pictureBox20 = new System.Windows.Forms.PictureBox();
-            this.button7 = new System.Windows.Forms.Button();
-            this.button8 = new System.Windows.Forms.Button();
-            this.pictureBox21 = new System.Windows.Forms.PictureBox();
-            this.button9 = new System.Windows.Forms.Button();
-            this.pictureBox22 = new System.Windows.Forms.PictureBox();
-            this.button10 = new System.Windows.Forms.Button();
-            this.pictureBox23 = new System.Windows.Forms.PictureBox();
-            this.button11 = new System.Windows.Forms.Button();
-            this.txtJan1 = new MaterialSkin.Controls.MaterialSingleLineTextField();
             this.materialTabControl1.SuspendLayout();
             this.dayContainerTabPage.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -956,6 +956,7 @@
             this.panel80.SuspendLayout();
             this.panel81.SuspendLayout();
             this.tabPage3.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox16)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             this.panel93.SuspendLayout();
             this.panel94.SuspendLayout();
@@ -989,6 +990,7 @@
             this.panel122.SuspendLayout();
             this.panel123.SuspendLayout();
             this.tabPage4.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox14)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             this.panel133.SuspendLayout();
             this.panel134.SuspendLayout();
@@ -1021,6 +1023,7 @@
             this.panel161.SuspendLayout();
             this.panel162.SuspendLayout();
             this.tabPage5.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox17)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
             this.panel179.SuspendLayout();
             this.panel180.SuspendLayout();
@@ -1054,6 +1057,7 @@
             this.panel208.SuspendLayout();
             this.panel209.SuspendLayout();
             this.tabPage6.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox18)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
             this.panel219.SuspendLayout();
             this.panel220.SuspendLayout();
@@ -1086,6 +1090,7 @@
             this.panel247.SuspendLayout();
             this.panel248.SuspendLayout();
             this.tabPage7.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox19)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
             this.panel258.SuspendLayout();
             this.panel259.SuspendLayout();
@@ -1119,6 +1124,7 @@
             this.panel287.SuspendLayout();
             this.panel288.SuspendLayout();
             this.tabPage8.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox20)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).BeginInit();
             this.panel304.SuspendLayout();
             this.panel305.SuspendLayout();
@@ -1184,6 +1190,7 @@
             this.panel372.SuspendLayout();
             this.panel373.SuspendLayout();
             this.tabPage10.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox21)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).BeginInit();
             this.panel390.SuspendLayout();
             this.panel391.SuspendLayout();
@@ -1217,6 +1224,7 @@
             this.panel419.SuspendLayout();
             this.panel420.SuspendLayout();
             this.tabPage11.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox22)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox11)).BeginInit();
             this.panel430.SuspendLayout();
             this.panel431.SuspendLayout();
@@ -1249,6 +1257,7 @@
             this.panel458.SuspendLayout();
             this.panel459.SuspendLayout();
             this.tabPage12.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox23)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox12)).BeginInit();
             this.panel469.SuspendLayout();
             this.panel470.SuspendLayout();
@@ -1281,15 +1290,6 @@
             this.panel497.SuspendLayout();
             this.panel498.SuspendLayout();
             this.panel499.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox14)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox16)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox17)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox18)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox19)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox20)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox21)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox22)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox23)).BeginInit();
             this.SuspendLayout();
             // 
             // materialTabSelector1
@@ -2002,13 +2002,32 @@
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.LightGray;
-            this.panel1.Controls.Add(this.txtJan1);
+            this.panel1.Controls.Add(this.txtEventMarker);
             this.panel1.Controls.Add(this.label1);
             this.panel1.Location = new System.Drawing.Point(17, 79);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(344, 180);
             this.panel1.TabIndex = 7;
             this.panel1.Click += new System.EventHandler(this.panel1_Click);
+            // 
+            // txtEventMarker
+            // 
+            this.txtEventMarker.Depth = 0;
+            this.txtEventMarker.Font = new System.Drawing.Font("Microsoft Sans Serif", 19.875F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtEventMarker.ForeColor = System.Drawing.Color.DimGray;
+            this.txtEventMarker.Hint = "";
+            this.txtEventMarker.Location = new System.Drawing.Point(131, 99);
+            this.txtEventMarker.MaxLength = 32767;
+            this.txtEventMarker.MouseState = MaterialSkin.MouseState.HOVER;
+            this.txtEventMarker.Name = "txtEventMarker";
+            this.txtEventMarker.PasswordChar = '\0';
+            this.txtEventMarker.SelectedText = "";
+            this.txtEventMarker.SelectionLength = 0;
+            this.txtEventMarker.SelectionStart = 0;
+            this.txtEventMarker.Size = new System.Drawing.Size(109, 41);
+            this.txtEventMarker.TabIndex = 1;
+            this.txtEventMarker.TabStop = false;
+            this.txtEventMarker.UseSystemPasswordChar = false;
             // 
             // label1
             // 
@@ -2150,6 +2169,21 @@
             this.tabPage2.TabIndex = 1;
             this.tabPage2.Text = "FEBRUARY";
             this.tabPage2.UseVisualStyleBackColor = true;
+            // 
+            // button2
+            // 
+            this.button2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(128)))), ((int)(((byte)(185)))));
+            this.button2.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button2.Font = new System.Drawing.Font("Century Gothic", 10.125F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button2.ForeColor = System.Drawing.Color.White;
+            this.button2.Location = new System.Drawing.Point(2166, 1090);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(352, 64);
+            this.button2.TabIndex = 105;
+            this.button2.Text = "View Events";
+            this.button2.UseVisualStyleBackColor = false;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // pictureBox2
             // 
@@ -2853,6 +2887,28 @@
             this.tabPage3.TabIndex = 2;
             this.tabPage3.Text = "MARCH";
             this.tabPage3.UseVisualStyleBackColor = true;
+            // 
+            // pictureBox16
+            // 
+            this.pictureBox16.Location = new System.Drawing.Point(2166, 851);
+            this.pictureBox16.Name = "pictureBox16";
+            this.pictureBox16.Size = new System.Drawing.Size(105, 233);
+            this.pictureBox16.TabIndex = 156;
+            this.pictureBox16.TabStop = false;
+            // 
+            // button3
+            // 
+            this.button3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(128)))), ((int)(((byte)(185)))));
+            this.button3.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button3.Font = new System.Drawing.Font("Century Gothic", 10.125F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button3.ForeColor = System.Drawing.Color.White;
+            this.button3.Location = new System.Drawing.Point(2166, 1090);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(352, 64);
+            this.button3.TabIndex = 155;
+            this.button3.Text = "View Events";
+            this.button3.UseVisualStyleBackColor = false;
             // 
             // pictureBox3
             // 
@@ -3585,6 +3641,28 @@
             this.tabPage4.Text = "APRIL";
             this.tabPage4.UseVisualStyleBackColor = true;
             // 
+            // pictureBox14
+            // 
+            this.pictureBox14.Location = new System.Drawing.Point(2166, 1047);
+            this.pictureBox14.Name = "pictureBox14";
+            this.pictureBox14.Size = new System.Drawing.Size(105, 233);
+            this.pictureBox14.TabIndex = 156;
+            this.pictureBox14.TabStop = false;
+            // 
+            // button1
+            // 
+            this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(128)))), ((int)(((byte)(185)))));
+            this.button1.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button1.Font = new System.Drawing.Font("Century Gothic", 10.125F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.ForeColor = System.Drawing.Color.White;
+            this.button1.Location = new System.Drawing.Point(2166, 1286);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(352, 64);
+            this.button1.TabIndex = 155;
+            this.button1.Text = "View Events";
+            this.button1.UseVisualStyleBackColor = false;
+            // 
             // pictureBox4
             // 
             this.pictureBox4.Location = new System.Drawing.Point(-8, 0);
@@ -4297,6 +4375,28 @@
             this.tabPage5.TabIndex = 4;
             this.tabPage5.Text = "MAY";
             this.tabPage5.UseVisualStyleBackColor = true;
+            // 
+            // pictureBox17
+            // 
+            this.pictureBox17.Location = new System.Drawing.Point(2166, 851);
+            this.pictureBox17.Name = "pictureBox17";
+            this.pictureBox17.Size = new System.Drawing.Size(105, 233);
+            this.pictureBox17.TabIndex = 156;
+            this.pictureBox17.TabStop = false;
+            // 
+            // button4
+            // 
+            this.button4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(128)))), ((int)(((byte)(185)))));
+            this.button4.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button4.Font = new System.Drawing.Font("Century Gothic", 10.125F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button4.ForeColor = System.Drawing.Color.White;
+            this.button4.Location = new System.Drawing.Point(2166, 1090);
+            this.button4.Name = "button4";
+            this.button4.Size = new System.Drawing.Size(352, 64);
+            this.button4.TabIndex = 155;
+            this.button4.Text = "View Events";
+            this.button4.UseVisualStyleBackColor = false;
             // 
             // pictureBox5
             // 
@@ -5029,6 +5129,28 @@
             this.tabPage6.Text = "JUNE";
             this.tabPage6.UseVisualStyleBackColor = true;
             // 
+            // pictureBox18
+            // 
+            this.pictureBox18.Location = new System.Drawing.Point(2166, 851);
+            this.pictureBox18.Name = "pictureBox18";
+            this.pictureBox18.Size = new System.Drawing.Size(105, 233);
+            this.pictureBox18.TabIndex = 206;
+            this.pictureBox18.TabStop = false;
+            // 
+            // button5
+            // 
+            this.button5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(128)))), ((int)(((byte)(185)))));
+            this.button5.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button5.Font = new System.Drawing.Font("Century Gothic", 10.125F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button5.ForeColor = System.Drawing.Color.White;
+            this.button5.Location = new System.Drawing.Point(2166, 1090);
+            this.button5.Name = "button5";
+            this.button5.Size = new System.Drawing.Size(352, 64);
+            this.button5.TabIndex = 205;
+            this.button5.Text = "View Events";
+            this.button5.UseVisualStyleBackColor = false;
+            // 
             // pictureBox6
             // 
             this.pictureBox6.Location = new System.Drawing.Point(-8, 0);
@@ -5741,6 +5863,28 @@
             this.tabPage7.TabIndex = 6;
             this.tabPage7.Text = "JULY";
             this.tabPage7.UseVisualStyleBackColor = true;
+            // 
+            // pictureBox19
+            // 
+            this.pictureBox19.Location = new System.Drawing.Point(2166, 1047);
+            this.pictureBox19.Name = "pictureBox19";
+            this.pictureBox19.Size = new System.Drawing.Size(105, 233);
+            this.pictureBox19.TabIndex = 206;
+            this.pictureBox19.TabStop = false;
+            // 
+            // button6
+            // 
+            this.button6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(128)))), ((int)(((byte)(185)))));
+            this.button6.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button6.Font = new System.Drawing.Font("Century Gothic", 10.125F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button6.ForeColor = System.Drawing.Color.White;
+            this.button6.Location = new System.Drawing.Point(2166, 1286);
+            this.button6.Name = "button6";
+            this.button6.Size = new System.Drawing.Size(352, 64);
+            this.button6.TabIndex = 205;
+            this.button6.Text = "View Events";
+            this.button6.UseVisualStyleBackColor = false;
             // 
             // pictureBox7
             // 
@@ -6474,6 +6618,28 @@
             this.tabPage8.Text = "AUGUST";
             this.tabPage8.UseVisualStyleBackColor = true;
             // 
+            // pictureBox20
+            // 
+            this.pictureBox20.Location = new System.Drawing.Point(2166, 851);
+            this.pictureBox20.Name = "pictureBox20";
+            this.pictureBox20.Size = new System.Drawing.Size(105, 233);
+            this.pictureBox20.TabIndex = 206;
+            this.pictureBox20.TabStop = false;
+            // 
+            // button7
+            // 
+            this.button7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(128)))), ((int)(((byte)(185)))));
+            this.button7.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button7.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button7.Font = new System.Drawing.Font("Century Gothic", 10.125F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button7.ForeColor = System.Drawing.Color.White;
+            this.button7.Location = new System.Drawing.Point(2166, 1090);
+            this.button7.Name = "button7";
+            this.button7.Size = new System.Drawing.Size(352, 64);
+            this.button7.TabIndex = 205;
+            this.button7.Text = "View Events";
+            this.button7.UseVisualStyleBackColor = false;
+            // 
             // pictureBox8
             // 
             this.pictureBox8.Location = new System.Drawing.Point(-8, 0);
@@ -7204,6 +7370,20 @@
             this.tabPage9.Text = "SEPTEMBER";
             this.tabPage9.UseVisualStyleBackColor = true;
             // 
+            // button8
+            // 
+            this.button8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(128)))), ((int)(((byte)(185)))));
+            this.button8.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button8.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button8.Font = new System.Drawing.Font("Century Gothic", 10.125F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button8.ForeColor = System.Drawing.Color.White;
+            this.button8.Location = new System.Drawing.Point(2166, 1117);
+            this.button8.Name = "button8";
+            this.button8.Size = new System.Drawing.Size(352, 64);
+            this.button8.TabIndex = 205;
+            this.button8.Text = "View Events";
+            this.button8.UseVisualStyleBackColor = false;
+            // 
             // pictureBox9
             // 
             this.pictureBox9.Location = new System.Drawing.Point(-8, 0);
@@ -7916,6 +8096,28 @@
             this.tabPage10.TabIndex = 9;
             this.tabPage10.Text = "OCTOBER";
             this.tabPage10.UseVisualStyleBackColor = true;
+            // 
+            // pictureBox21
+            // 
+            this.pictureBox21.Location = new System.Drawing.Point(2166, 851);
+            this.pictureBox21.Name = "pictureBox21";
+            this.pictureBox21.Size = new System.Drawing.Size(105, 233);
+            this.pictureBox21.TabIndex = 208;
+            this.pictureBox21.TabStop = false;
+            // 
+            // button9
+            // 
+            this.button9.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(128)))), ((int)(((byte)(185)))));
+            this.button9.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button9.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button9.Font = new System.Drawing.Font("Century Gothic", 10.125F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button9.ForeColor = System.Drawing.Color.White;
+            this.button9.Location = new System.Drawing.Point(2166, 1090);
+            this.button9.Name = "button9";
+            this.button9.Size = new System.Drawing.Size(352, 64);
+            this.button9.TabIndex = 207;
+            this.button9.Text = "View Events";
+            this.button9.UseVisualStyleBackColor = false;
             // 
             // pictureBox10
             // 
@@ -8648,6 +8850,28 @@
             this.tabPage11.Text = "NOVEMBER";
             this.tabPage11.UseVisualStyleBackColor = true;
             // 
+            // pictureBox22
+            // 
+            this.pictureBox22.Location = new System.Drawing.Point(2166, 851);
+            this.pictureBox22.Name = "pictureBox22";
+            this.pictureBox22.Size = new System.Drawing.Size(105, 233);
+            this.pictureBox22.TabIndex = 208;
+            this.pictureBox22.TabStop = false;
+            // 
+            // button10
+            // 
+            this.button10.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(128)))), ((int)(((byte)(185)))));
+            this.button10.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button10.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button10.Font = new System.Drawing.Font("Century Gothic", 10.125F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button10.ForeColor = System.Drawing.Color.White;
+            this.button10.Location = new System.Drawing.Point(2166, 1090);
+            this.button10.Name = "button10";
+            this.button10.Size = new System.Drawing.Size(352, 64);
+            this.button10.TabIndex = 207;
+            this.button10.Text = "View Events";
+            this.button10.UseVisualStyleBackColor = false;
+            // 
             // pictureBox11
             // 
             this.pictureBox11.Location = new System.Drawing.Point(-8, 0);
@@ -9361,6 +9585,28 @@
             this.tabPage12.Text = "DECEMBER";
             this.tabPage12.UseVisualStyleBackColor = true;
             // 
+            // pictureBox23
+            // 
+            this.pictureBox23.Location = new System.Drawing.Point(2166, 1047);
+            this.pictureBox23.Name = "pictureBox23";
+            this.pictureBox23.Size = new System.Drawing.Size(105, 233);
+            this.pictureBox23.TabIndex = 208;
+            this.pictureBox23.TabStop = false;
+            // 
+            // button11
+            // 
+            this.button11.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(128)))), ((int)(((byte)(185)))));
+            this.button11.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button11.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button11.Font = new System.Drawing.Font("Century Gothic", 10.125F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button11.ForeColor = System.Drawing.Color.White;
+            this.button11.Location = new System.Drawing.Point(2166, 1286);
+            this.button11.Name = "button11";
+            this.button11.Size = new System.Drawing.Size(352, 64);
+            this.button11.TabIndex = 207;
+            this.button11.Text = "View Events";
+            this.button11.UseVisualStyleBackColor = false;
+            // 
             // pictureBox12
             // 
             this.pictureBox12.Location = new System.Drawing.Point(-8, 0);
@@ -10056,250 +10302,6 @@
             this.lblYear.TabIndex = 2;
             this.lblYear.Text = "2023";
             // 
-            // pictureBox14
-            // 
-            this.pictureBox14.Location = new System.Drawing.Point(2166, 1047);
-            this.pictureBox14.Name = "pictureBox14";
-            this.pictureBox14.Size = new System.Drawing.Size(105, 233);
-            this.pictureBox14.TabIndex = 156;
-            this.pictureBox14.TabStop = false;
-            // 
-            // button1
-            // 
-            this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(128)))), ((int)(((byte)(185)))));
-            this.button1.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.Font = new System.Drawing.Font("Century Gothic", 10.125F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.ForeColor = System.Drawing.Color.White;
-            this.button1.Location = new System.Drawing.Point(2166, 1286);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(352, 64);
-            this.button1.TabIndex = 155;
-            this.button1.Text = "View Events";
-            this.button1.UseVisualStyleBackColor = false;
-            // 
-            // button2
-            // 
-            this.button2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(128)))), ((int)(((byte)(185)))));
-            this.button2.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button2.Font = new System.Drawing.Font("Century Gothic", 10.125F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.ForeColor = System.Drawing.Color.White;
-            this.button2.Location = new System.Drawing.Point(2166, 1090);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(352, 64);
-            this.button2.TabIndex = 105;
-            this.button2.Text = "View Events";
-            this.button2.UseVisualStyleBackColor = false;
-            this.button2.Click += new System.EventHandler(this.button2_Click);
-            // 
-            // pictureBox16
-            // 
-            this.pictureBox16.Location = new System.Drawing.Point(2166, 851);
-            this.pictureBox16.Name = "pictureBox16";
-            this.pictureBox16.Size = new System.Drawing.Size(105, 233);
-            this.pictureBox16.TabIndex = 156;
-            this.pictureBox16.TabStop = false;
-            // 
-            // button3
-            // 
-            this.button3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(128)))), ((int)(((byte)(185)))));
-            this.button3.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button3.Font = new System.Drawing.Font("Century Gothic", 10.125F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button3.ForeColor = System.Drawing.Color.White;
-            this.button3.Location = new System.Drawing.Point(2166, 1090);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(352, 64);
-            this.button3.TabIndex = 155;
-            this.button3.Text = "View Events";
-            this.button3.UseVisualStyleBackColor = false;
-            // 
-            // pictureBox17
-            // 
-            this.pictureBox17.Location = new System.Drawing.Point(2166, 851);
-            this.pictureBox17.Name = "pictureBox17";
-            this.pictureBox17.Size = new System.Drawing.Size(105, 233);
-            this.pictureBox17.TabIndex = 156;
-            this.pictureBox17.TabStop = false;
-            // 
-            // button4
-            // 
-            this.button4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(128)))), ((int)(((byte)(185)))));
-            this.button4.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button4.Font = new System.Drawing.Font("Century Gothic", 10.125F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button4.ForeColor = System.Drawing.Color.White;
-            this.button4.Location = new System.Drawing.Point(2166, 1090);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(352, 64);
-            this.button4.TabIndex = 155;
-            this.button4.Text = "View Events";
-            this.button4.UseVisualStyleBackColor = false;
-            // 
-            // pictureBox18
-            // 
-            this.pictureBox18.Location = new System.Drawing.Point(2166, 851);
-            this.pictureBox18.Name = "pictureBox18";
-            this.pictureBox18.Size = new System.Drawing.Size(105, 233);
-            this.pictureBox18.TabIndex = 206;
-            this.pictureBox18.TabStop = false;
-            // 
-            // button5
-            // 
-            this.button5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(128)))), ((int)(((byte)(185)))));
-            this.button5.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button5.Font = new System.Drawing.Font("Century Gothic", 10.125F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button5.ForeColor = System.Drawing.Color.White;
-            this.button5.Location = new System.Drawing.Point(2166, 1090);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(352, 64);
-            this.button5.TabIndex = 205;
-            this.button5.Text = "View Events";
-            this.button5.UseVisualStyleBackColor = false;
-            // 
-            // pictureBox19
-            // 
-            this.pictureBox19.Location = new System.Drawing.Point(2166, 1047);
-            this.pictureBox19.Name = "pictureBox19";
-            this.pictureBox19.Size = new System.Drawing.Size(105, 233);
-            this.pictureBox19.TabIndex = 206;
-            this.pictureBox19.TabStop = false;
-            // 
-            // button6
-            // 
-            this.button6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(128)))), ((int)(((byte)(185)))));
-            this.button6.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button6.Font = new System.Drawing.Font("Century Gothic", 10.125F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button6.ForeColor = System.Drawing.Color.White;
-            this.button6.Location = new System.Drawing.Point(2166, 1286);
-            this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(352, 64);
-            this.button6.TabIndex = 205;
-            this.button6.Text = "View Events";
-            this.button6.UseVisualStyleBackColor = false;
-            // 
-            // pictureBox20
-            // 
-            this.pictureBox20.Location = new System.Drawing.Point(2166, 851);
-            this.pictureBox20.Name = "pictureBox20";
-            this.pictureBox20.Size = new System.Drawing.Size(105, 233);
-            this.pictureBox20.TabIndex = 206;
-            this.pictureBox20.TabStop = false;
-            // 
-            // button7
-            // 
-            this.button7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(128)))), ((int)(((byte)(185)))));
-            this.button7.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button7.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button7.Font = new System.Drawing.Font("Century Gothic", 10.125F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button7.ForeColor = System.Drawing.Color.White;
-            this.button7.Location = new System.Drawing.Point(2166, 1090);
-            this.button7.Name = "button7";
-            this.button7.Size = new System.Drawing.Size(352, 64);
-            this.button7.TabIndex = 205;
-            this.button7.Text = "View Events";
-            this.button7.UseVisualStyleBackColor = false;
-            // 
-            // button8
-            // 
-            this.button8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(128)))), ((int)(((byte)(185)))));
-            this.button8.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button8.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button8.Font = new System.Drawing.Font("Century Gothic", 10.125F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button8.ForeColor = System.Drawing.Color.White;
-            this.button8.Location = new System.Drawing.Point(2166, 1117);
-            this.button8.Name = "button8";
-            this.button8.Size = new System.Drawing.Size(352, 64);
-            this.button8.TabIndex = 205;
-            this.button8.Text = "View Events";
-            this.button8.UseVisualStyleBackColor = false;
-            // 
-            // pictureBox21
-            // 
-            this.pictureBox21.Location = new System.Drawing.Point(2166, 851);
-            this.pictureBox21.Name = "pictureBox21";
-            this.pictureBox21.Size = new System.Drawing.Size(105, 233);
-            this.pictureBox21.TabIndex = 208;
-            this.pictureBox21.TabStop = false;
-            // 
-            // button9
-            // 
-            this.button9.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(128)))), ((int)(((byte)(185)))));
-            this.button9.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button9.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button9.Font = new System.Drawing.Font("Century Gothic", 10.125F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button9.ForeColor = System.Drawing.Color.White;
-            this.button9.Location = new System.Drawing.Point(2166, 1090);
-            this.button9.Name = "button9";
-            this.button9.Size = new System.Drawing.Size(352, 64);
-            this.button9.TabIndex = 207;
-            this.button9.Text = "View Events";
-            this.button9.UseVisualStyleBackColor = false;
-            // 
-            // pictureBox22
-            // 
-            this.pictureBox22.Location = new System.Drawing.Point(2166, 851);
-            this.pictureBox22.Name = "pictureBox22";
-            this.pictureBox22.Size = new System.Drawing.Size(105, 233);
-            this.pictureBox22.TabIndex = 208;
-            this.pictureBox22.TabStop = false;
-            // 
-            // button10
-            // 
-            this.button10.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(128)))), ((int)(((byte)(185)))));
-            this.button10.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button10.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button10.Font = new System.Drawing.Font("Century Gothic", 10.125F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button10.ForeColor = System.Drawing.Color.White;
-            this.button10.Location = new System.Drawing.Point(2166, 1090);
-            this.button10.Name = "button10";
-            this.button10.Size = new System.Drawing.Size(352, 64);
-            this.button10.TabIndex = 207;
-            this.button10.Text = "View Events";
-            this.button10.UseVisualStyleBackColor = false;
-            // 
-            // pictureBox23
-            // 
-            this.pictureBox23.Location = new System.Drawing.Point(2166, 1047);
-            this.pictureBox23.Name = "pictureBox23";
-            this.pictureBox23.Size = new System.Drawing.Size(105, 233);
-            this.pictureBox23.TabIndex = 208;
-            this.pictureBox23.TabStop = false;
-            // 
-            // button11
-            // 
-            this.button11.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(128)))), ((int)(((byte)(185)))));
-            this.button11.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button11.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button11.Font = new System.Drawing.Font("Century Gothic", 10.125F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button11.ForeColor = System.Drawing.Color.White;
-            this.button11.Location = new System.Drawing.Point(2166, 1286);
-            this.button11.Name = "button11";
-            this.button11.Size = new System.Drawing.Size(352, 64);
-            this.button11.TabIndex = 207;
-            this.button11.Text = "View Events";
-            this.button11.UseVisualStyleBackColor = false;
-            // 
-            // txtJan1
-            // 
-            this.txtJan1.Depth = 0;
-            this.txtJan1.Hint = "";
-            this.txtJan1.Location = new System.Drawing.Point(131, 97);
-            this.txtJan1.MaxLength = 32767;
-            this.txtJan1.MouseState = MaterialSkin.MouseState.HOVER;
-            this.txtJan1.Name = "txtJan1";
-            this.txtJan1.PasswordChar = '\0';
-            this.txtJan1.SelectedText = "";
-            this.txtJan1.SelectionLength = 0;
-            this.txtJan1.SelectionStart = 0;
-            this.txtJan1.Size = new System.Drawing.Size(75, 41);
-            this.txtJan1.TabIndex = 1;
-            this.txtJan1.TabStop = false;
-            this.txtJan1.UseSystemPasswordChar = false;
-            // 
             // MainPage
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
@@ -10434,6 +10436,7 @@
             this.panel81.ResumeLayout(false);
             this.panel81.PerformLayout();
             this.tabPage3.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox16)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             this.panel93.ResumeLayout(false);
             this.panel93.PerformLayout();
@@ -10498,6 +10501,7 @@
             this.panel123.ResumeLayout(false);
             this.panel123.PerformLayout();
             this.tabPage4.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox14)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
             this.panel133.ResumeLayout(false);
             this.panel133.PerformLayout();
@@ -10560,6 +10564,7 @@
             this.panel162.ResumeLayout(false);
             this.panel162.PerformLayout();
             this.tabPage5.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox17)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
             this.panel179.ResumeLayout(false);
             this.panel179.PerformLayout();
@@ -10624,6 +10629,7 @@
             this.panel209.ResumeLayout(false);
             this.panel209.PerformLayout();
             this.tabPage6.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox18)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
             this.panel219.ResumeLayout(false);
             this.panel219.PerformLayout();
@@ -10686,6 +10692,7 @@
             this.panel248.ResumeLayout(false);
             this.panel248.PerformLayout();
             this.tabPage7.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox19)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).EndInit();
             this.panel258.ResumeLayout(false);
             this.panel258.PerformLayout();
@@ -10750,6 +10757,7 @@
             this.panel288.ResumeLayout(false);
             this.panel288.PerformLayout();
             this.tabPage8.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox20)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).EndInit();
             this.panel304.ResumeLayout(false);
             this.panel304.PerformLayout();
@@ -10876,6 +10884,7 @@
             this.panel373.ResumeLayout(false);
             this.panel373.PerformLayout();
             this.tabPage10.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox21)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).EndInit();
             this.panel390.ResumeLayout(false);
             this.panel390.PerformLayout();
@@ -10940,6 +10949,7 @@
             this.panel420.ResumeLayout(false);
             this.panel420.PerformLayout();
             this.tabPage11.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox22)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox11)).EndInit();
             this.panel430.ResumeLayout(false);
             this.panel430.PerformLayout();
@@ -11002,6 +11012,7 @@
             this.panel459.ResumeLayout(false);
             this.panel459.PerformLayout();
             this.tabPage12.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox23)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox12)).EndInit();
             this.panel469.ResumeLayout(false);
             this.panel469.PerformLayout();
@@ -11065,15 +11076,6 @@
             this.panel498.PerformLayout();
             this.panel499.ResumeLayout(false);
             this.panel499.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox14)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox16)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox17)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox18)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox19)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox20)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox21)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox22)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox23)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -11942,6 +11944,6 @@
         private System.Windows.Forms.Button button10;
         private System.Windows.Forms.PictureBox pictureBox23;
         private System.Windows.Forms.Button button11;
-        private MaterialSkin.Controls.MaterialSingleLineTextField txtJan1;
+        private MaterialSkin.Controls.MaterialSingleLineTextField txtEventMarker;
     }
 }

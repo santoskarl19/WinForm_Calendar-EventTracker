@@ -15,10 +15,9 @@ namespace Calendar_EventTracker
 {
     public partial class EventView : MaterialForm
     {
-        public EventView()
+        public EventView() 
         {
             InitializeComponent();
-
         }
 
         private void EventView_Load(object sender, EventArgs e)
@@ -38,11 +37,13 @@ namespace Calendar_EventTracker
 
                 // display message once record is deleted
                 MessageBox.Show("Event Successfully Deleted!");
+
             }
             else if (result == DialogResult.No)
             {
                 MessageBox.Show("Event Not Deleted!");
             }
         }
+
     }
 }

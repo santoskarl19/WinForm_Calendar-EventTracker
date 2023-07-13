@@ -13,6 +13,7 @@ using System.Reflection;
 
 namespace Calendar_EventTracker
 {
+
     public partial class MainPage : MaterialForm
     {
         public MainPage()
@@ -22,7 +23,6 @@ namespace Calendar_EventTracker
             SkinManager.AddFormToManage(this);
             SkinManager.Theme = MaterialSkinManager.Themes.DARK;
             SkinManager.ColorScheme = new ColorScheme(Primary.Blue800, Primary.Blue900, Primary.Blue500, Accent.LightBlue200, TextShade.WHITE);
-
         }
 
         // January
