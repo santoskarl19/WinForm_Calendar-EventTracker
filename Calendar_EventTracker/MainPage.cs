@@ -771,5 +771,499 @@ namespace Calendar_EventTracker
             EventView eventView = new EventView();
             eventView.ShowDialog();
         }
+
+        private void panel162_Click(object sender, EventArgs e)
+        {
+            EventForm eventForm = new EventForm();
+            eventForm.ShowDialog();
+            if (GlobalData.ifAdded == true)
+                textBox92.Text = "X";
+        }
+
+        private void panel161_Click(object sender, EventArgs e)
+        {
+            EventForm eventForm = new EventForm();
+            eventForm.ShowDialog();
+            if (GlobalData.ifAdded == true)
+                textBox93.Text = "X";
+        }
+
+        private void panel160_Click(object sender, EventArgs e)
+        {
+            EventForm eventForm = new EventForm();
+            eventForm.ShowDialog();
+            if (GlobalData.ifAdded == true)
+                textBox94.Text = "X";
+        }
+
+        private void panel159_Click(object sender, EventArgs e)
+        {
+            EventForm eventForm = new EventForm();
+            eventForm.ShowDialog();
+            if (GlobalData.ifAdded == true)
+                textBox95.Text = "X";
+        }
+
+        private void panel158_Click(object sender, EventArgs e)
+        {
+            EventForm eventForm = new EventForm();
+            eventForm.ShowDialog();
+            if (GlobalData.ifAdded == true)
+                textBox96.Text = "X";
+        }
+
+        private void panel157_Click(object sender, EventArgs e)
+        {
+            EventForm eventForm = new EventForm();
+            eventForm.ShowDialog();
+            if (GlobalData.ifAdded == true)
+                textBox97.Text = "X";
+        }
+
+        private void panel156_Click(object sender, EventArgs e)
+        {
+            EventForm eventForm = new EventForm();
+            eventForm.ShowDialog();
+            if (GlobalData.ifAdded == true)
+                textBox98.Text = "X";
+        }
+
+        private void panel155_Click(object sender, EventArgs e)
+        {
+            EventForm eventForm = new EventForm();
+            eventForm.ShowDialog();
+            if (GlobalData.ifAdded == true)
+                textBox99.Text = "X";
+        }
+
+        private void panel154_Click(object sender, EventArgs e)
+        {
+            EventForm eventForm = new EventForm();
+            eventForm.ShowDialog();
+            if (GlobalData.ifAdded == true)
+                textBox100.Text = "X";
+        }
+
+        private void panel153_Click(object sender, EventArgs e)
+        {
+            EventForm eventForm = new EventForm();
+            eventForm.ShowDialog();
+            if (GlobalData.ifAdded == true)
+                textBox101.Text = "X";
+        }
+
+        private void panel152_Click(object sender, EventArgs e)
+        {
+            EventForm eventForm = new EventForm();
+            eventForm.ShowDialog();
+            if (GlobalData.ifAdded == true)
+                textBox102.Text = "X";
+        }
+
+        private void panel151_Click(object sender, EventArgs e)
+        {
+            EventForm eventForm = new EventForm();
+            eventForm.ShowDialog();
+            if (GlobalData.ifAdded == true)
+                textBox103.Text = "X";
+        }
+
+        private void panel150_Click(object sender, EventArgs e)
+        {
+            EventForm eventForm = new EventForm();
+            eventForm.ShowDialog();
+            if (GlobalData.ifAdded == true)
+                textBox104.Text = "X";
+        }
+
+        private void panel149_Click(object sender, EventArgs e)
+        {
+            EventForm eventForm = new EventForm();
+            eventForm.ShowDialog();
+            if (GlobalData.ifAdded == true)
+                textBox105.Text = "X";
+        }
+
+        private void panel148_Click(object sender, EventArgs e)
+        {
+            EventForm eventForm = new EventForm();
+            eventForm.ShowDialog();
+            if (GlobalData.ifAdded == true)
+                textBox106.Text = "X";
+        }
+
+        private void panel147_Click(object sender, EventArgs e)
+        {
+            EventForm eventForm = new EventForm();
+            eventForm.ShowDialog();
+            if (GlobalData.ifAdded == true)
+                textBox107.Text = "X";
+        }
+
+        private void panel146_Click(object sender, EventArgs e)
+        {
+            EventForm eventForm = new EventForm();
+            eventForm.ShowDialog();
+            if (GlobalData.ifAdded == true)
+                textBox108.Text = "X";
+        }
+
+        private void panel145_Click(object sender, EventArgs e)
+        {
+            EventForm eventForm = new EventForm();
+            eventForm.ShowDialog();
+            if (GlobalData.ifAdded == true)
+                textBox109.Text = "X";
+        }
+
+        private void panel144_Click(object sender, EventArgs e)
+        {
+            EventForm eventForm = new EventForm();
+            eventForm.ShowDialog();
+            if (GlobalData.ifAdded == true)
+                textBox110.Text = "X";
+        }
+
+        private void panel143_Click(object sender, EventArgs e)
+        {
+            EventForm eventForm = new EventForm();
+            eventForm.ShowDialog();
+            if (GlobalData.ifAdded == true)
+                textBox111.Text = "X";
+        }
+
+        private void panel142_Click(object sender, EventArgs e)
+        {
+            EventForm eventForm = new EventForm();
+            eventForm.ShowDialog();
+            if (GlobalData.ifAdded == true)
+                textBox112.Text = "X";
+        }
+
+        private void panel141_Click(object sender, EventArgs e)
+        {
+            EventForm eventForm = new EventForm();
+            eventForm.ShowDialog();
+            if (GlobalData.ifAdded == true)
+                textBox113.Text = "X";
+        }
+
+        private void panel140_Click(object sender, EventArgs e)
+        {
+            EventForm eventForm = new EventForm();
+            eventForm.ShowDialog();
+            if (GlobalData.ifAdded == true)
+                textBox114.Text = "X";
+        }
+
+        private void panel139_Click(object sender, EventArgs e)
+        {
+            EventForm eventForm = new EventForm();
+            eventForm.ShowDialog();
+            if (GlobalData.ifAdded == true)
+                textBox115.Text = "X";
+        }
+
+        private void panel138_Click(object sender, EventArgs e)
+        {
+            EventForm eventForm = new EventForm();
+            eventForm.ShowDialog();
+            if (GlobalData.ifAdded == true)
+                textBox116.Text = "X";
+        }
+
+        private void panel137_Click(object sender, EventArgs e)
+        {
+            EventForm eventForm = new EventForm();
+            eventForm.ShowDialog();
+            if (GlobalData.ifAdded == true)
+                textBox117.Text = "X";
+        }
+
+        private void panel136_Click(object sender, EventArgs e)
+        {
+            EventForm eventForm = new EventForm();
+            eventForm.ShowDialog();
+            if (GlobalData.ifAdded == true)
+                textBox118.Text = "X";
+        }
+
+        private void panel135_Click(object sender, EventArgs e)
+        {
+            EventForm eventForm = new EventForm();
+            eventForm.ShowDialog();
+            if (GlobalData.ifAdded == true)
+                textBox119.Text = "X";
+        }
+
+        private void panel134_Click(object sender, EventArgs e)
+        {
+            EventForm eventForm = new EventForm();
+            eventForm.ShowDialog();
+            if (GlobalData.ifAdded == true)
+                textBox120.Text = "X";
+        }
+
+        private void panel133_Click(object sender, EventArgs e)
+        {
+            EventForm eventForm = new EventForm();
+            eventForm.ShowDialog();
+            if (GlobalData.ifAdded == true)
+                textBox121.Text = "X";
+        }
+                            // MAY
+        private void button4_Click(object sender, EventArgs e)
+        {
+            EventView eventView = new EventView();
+            eventView.ShowDialog();
+        }
+
+        private void panel209_Click(object sender, EventArgs e)
+        {
+            EventForm eventForm = new EventForm();
+            eventForm.ShowDialog();
+            if (GlobalData.ifAdded == true)
+                textBox122.Text = "X";
+        }
+
+        private void panel208_Click(object sender, EventArgs e)
+        {
+            EventForm eventForm = new EventForm();
+            eventForm.ShowDialog();
+            if (GlobalData.ifAdded == true)
+                textBox123.Text = "X";
+        }
+
+        private void panel207_Click(object sender, EventArgs e)
+        {
+            EventForm eventForm = new EventForm();
+            eventForm.ShowDialog();
+            if (GlobalData.ifAdded == true)
+                textBox124.Text = "X";
+        }
+
+        private void panel206_Click(object sender, EventArgs e)
+        {
+            EventForm eventForm = new EventForm();
+            eventForm.ShowDialog();
+            if (GlobalData.ifAdded == true)
+                textBox125.Text = "X";
+        }
+
+        private void panel205_Click(object sender, EventArgs e)
+        {
+            EventForm eventForm = new EventForm();
+            eventForm.ShowDialog();
+            if (GlobalData.ifAdded == true)
+                textBox126.Text = "X";
+        }
+
+        private void panel204_Click(object sender, EventArgs e)
+        {
+            EventForm eventForm = new EventForm();
+            eventForm.ShowDialog();
+            if (GlobalData.ifAdded == true)
+                textBox127.Text = "X";
+        }
+
+        private void panel203_Click(object sender, EventArgs e)
+        {
+            EventForm eventForm = new EventForm();
+            eventForm.ShowDialog();
+            if (GlobalData.ifAdded == true)
+                textBox128.Text = "X";
+        }
+
+        private void panel202_Click(object sender, EventArgs e)
+        {
+            EventForm eventForm = new EventForm();
+            eventForm.ShowDialog();
+            if (GlobalData.ifAdded == true)
+                textBox129.Text = "X";
+        }
+
+        private void panel201_Click(object sender, EventArgs e)
+        {
+            EventForm eventForm = new EventForm();
+            eventForm.ShowDialog();
+            if (GlobalData.ifAdded == true)
+                textBox130.Text = "X";
+        }
+
+        private void panel200_Click(object sender, EventArgs e)
+        {
+            EventForm eventForm = new EventForm();
+            eventForm.ShowDialog();
+            if (GlobalData.ifAdded == true)
+                textBox131.Text = "X";
+        }
+
+        private void panel199_Click(object sender, EventArgs e)
+        {
+            EventForm eventForm = new EventForm();
+            eventForm.ShowDialog();
+            if (GlobalData.ifAdded == true)
+                textBox132.Text = "X";
+        }
+
+        private void panel198_Click(object sender, EventArgs e)
+        {
+            EventForm eventForm = new EventForm();
+            eventForm.ShowDialog();
+            if (GlobalData.ifAdded == true)
+                textBox133.Text = "X";
+        }
+
+        private void panel197_Click(object sender, EventArgs e)
+        {
+            EventForm eventForm = new EventForm();
+            eventForm.ShowDialog();
+            if (GlobalData.ifAdded == true)
+                textBox134.Text = "X";
+        }
+
+        private void panel196_Click(object sender, EventArgs e)
+        {
+            EventForm eventForm = new EventForm();
+            eventForm.ShowDialog();
+            if (GlobalData.ifAdded == true)
+                textBox135.Text = "X";
+        }
+
+        private void panel195_Click(object sender, EventArgs e)
+        {
+            EventForm eventForm = new EventForm();
+            eventForm.ShowDialog();
+            if (GlobalData.ifAdded == true)
+                textBox136.Text = "X";
+        }
+
+        private void panel194_Click(object sender, EventArgs e)
+        {
+            EventForm eventForm = new EventForm();
+            eventForm.ShowDialog();
+            if (GlobalData.ifAdded == true)
+                textBox137.Text = "X";
+        }
+
+        private void panel193_Click(object sender, EventArgs e)
+        {
+            EventForm eventForm = new EventForm();
+            eventForm.ShowDialog();
+            if (GlobalData.ifAdded == true)
+                textBox138.Text = "X";
+        }
+
+        private void panel192_Click(object sender, EventArgs e)
+        {
+            EventForm eventForm = new EventForm();
+            eventForm.ShowDialog();
+            if (GlobalData.ifAdded == true)
+                textBox139.Text = "X";
+        }
+
+        private void panel191_Click(object sender, EventArgs e)
+        {
+            EventForm eventForm = new EventForm();
+            eventForm.ShowDialog();
+            if (GlobalData.ifAdded == true)
+                textBox140.Text = "X";
+        }
+
+        private void panel190_Click(object sender, EventArgs e)
+        {
+            EventForm eventForm = new EventForm();
+            eventForm.ShowDialog();
+            if (GlobalData.ifAdded == true)
+                textBox141.Text = "X";
+        }
+
+        private void panel189_Click(object sender, EventArgs e)
+        {
+            EventForm eventForm = new EventForm();
+            eventForm.ShowDialog();
+            if (GlobalData.ifAdded == true)
+                textBox142.Text = "X";
+        }
+
+        private void panel188_Click(object sender, EventArgs e)
+        {
+            EventForm eventForm = new EventForm();
+            eventForm.ShowDialog();
+            if (GlobalData.ifAdded == true)
+                textBox143.Text = "X";
+        }
+
+        private void panel187_Click(object sender, EventArgs e)
+        {
+            EventForm eventForm = new EventForm();
+            eventForm.ShowDialog();
+            if (GlobalData.ifAdded == true)
+                textBox144.Text = "X";
+        }
+
+        private void panel186_Click(object sender, EventArgs e)
+        {
+            EventForm eventForm = new EventForm();
+            eventForm.ShowDialog();
+            if (GlobalData.ifAdded == true)
+                textBox145.Text = "X";
+        }
+
+        private void panel185_Click(object sender, EventArgs e)
+        {
+            EventForm eventForm = new EventForm();
+            eventForm.ShowDialog();
+            if (GlobalData.ifAdded == true)
+                textBox146.Text = "X";
+        }
+
+        private void panel184_Click(object sender, EventArgs e)
+        {
+            EventForm eventForm = new EventForm();
+            eventForm.ShowDialog();
+            if (GlobalData.ifAdded == true)
+                textBox147.Text = "X";
+        }
+
+        private void panel183_Click(object sender, EventArgs e)
+        {
+            EventForm eventForm = new EventForm();
+            eventForm.ShowDialog();
+            if (GlobalData.ifAdded == true)
+                textBox148.Text = "X";
+        }
+
+        private void panel182_Click(object sender, EventArgs e)
+        {
+            EventForm eventForm = new EventForm();
+            eventForm.ShowDialog();
+            if (GlobalData.ifAdded == true)
+                textBox149.Text = "X";
+        }
+
+        private void panel181_Click(object sender, EventArgs e)
+        {
+            EventForm eventForm = new EventForm();
+            eventForm.ShowDialog();
+            if (GlobalData.ifAdded == true)
+                textBox150.Text = "X";
+        }
+
+        private void panel180_Click(object sender, EventArgs e)
+        {
+            EventForm eventForm = new EventForm();
+            eventForm.ShowDialog();
+            if (GlobalData.ifAdded == true)
+                textBox151.Text = "X";
+        }
+
+        private void panel179_Click(object sender, EventArgs e)
+        {
+            EventForm eventForm = new EventForm();
+            eventForm.ShowDialog();
+            if (GlobalData.ifAdded == true)
+                textBox152.Text = "X";
+        }
     }
 }

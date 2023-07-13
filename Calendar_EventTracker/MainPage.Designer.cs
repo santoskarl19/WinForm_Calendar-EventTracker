@@ -333,7 +333,6 @@
             this.materialLabel20 = new MaterialSkin.Controls.MaterialLabel();
             this.materialLabel21 = new MaterialSkin.Controls.MaterialLabel();
             this.tabPage4 = new System.Windows.Forms.TabPage();
-            this.pictureBox14 = new System.Windows.Forms.PictureBox();
             this.button1 = new System.Windows.Forms.Button();
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
             this.panel133 = new System.Windows.Forms.Panel();
@@ -1011,6 +1010,37 @@
             this.textBox119 = new System.Windows.Forms.TextBox();
             this.textBox120 = new System.Windows.Forms.TextBox();
             this.textBox121 = new System.Windows.Forms.TextBox();
+            this.textBox122 = new System.Windows.Forms.TextBox();
+            this.textBox123 = new System.Windows.Forms.TextBox();
+            this.textBox124 = new System.Windows.Forms.TextBox();
+            this.textBox125 = new System.Windows.Forms.TextBox();
+            this.textBox126 = new System.Windows.Forms.TextBox();
+            this.textBox127 = new System.Windows.Forms.TextBox();
+            this.textBox128 = new System.Windows.Forms.TextBox();
+            this.textBox129 = new System.Windows.Forms.TextBox();
+            this.textBox130 = new System.Windows.Forms.TextBox();
+            this.textBox131 = new System.Windows.Forms.TextBox();
+            this.textBox132 = new System.Windows.Forms.TextBox();
+            this.textBox133 = new System.Windows.Forms.TextBox();
+            this.textBox134 = new System.Windows.Forms.TextBox();
+            this.textBox135 = new System.Windows.Forms.TextBox();
+            this.textBox136 = new System.Windows.Forms.TextBox();
+            this.textBox137 = new System.Windows.Forms.TextBox();
+            this.textBox138 = new System.Windows.Forms.TextBox();
+            this.textBox139 = new System.Windows.Forms.TextBox();
+            this.textBox140 = new System.Windows.Forms.TextBox();
+            this.textBox141 = new System.Windows.Forms.TextBox();
+            this.textBox142 = new System.Windows.Forms.TextBox();
+            this.textBox143 = new System.Windows.Forms.TextBox();
+            this.textBox144 = new System.Windows.Forms.TextBox();
+            this.textBox145 = new System.Windows.Forms.TextBox();
+            this.textBox146 = new System.Windows.Forms.TextBox();
+            this.textBox147 = new System.Windows.Forms.TextBox();
+            this.textBox148 = new System.Windows.Forms.TextBox();
+            this.textBox149 = new System.Windows.Forms.TextBox();
+            this.textBox150 = new System.Windows.Forms.TextBox();
+            this.textBox151 = new System.Windows.Forms.TextBox();
+            this.textBox152 = new System.Windows.Forms.TextBox();
             this.materialTabControl1.SuspendLayout();
             this.dayContainerTabPage.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -1110,7 +1140,6 @@
             this.panel122.SuspendLayout();
             this.panel123.SuspendLayout();
             this.tabPage4.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox14)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             this.panel133.SuspendLayout();
             this.panel134.SuspendLayout();
@@ -4817,7 +4846,6 @@
             // 
             // tabPage4
             // 
-            this.tabPage4.Controls.Add(this.pictureBox14);
             this.tabPage4.Controls.Add(this.button1);
             this.tabPage4.Controls.Add(this.pictureBox4);
             this.tabPage4.Controls.Add(this.panel133);
@@ -4865,14 +4893,6 @@
             this.tabPage4.Text = "APRIL";
             this.tabPage4.UseVisualStyleBackColor = true;
             // 
-            // pictureBox14
-            // 
-            this.pictureBox14.Location = new System.Drawing.Point(2166, 1047);
-            this.pictureBox14.Name = "pictureBox14";
-            this.pictureBox14.Size = new System.Drawing.Size(105, 233);
-            this.pictureBox14.TabIndex = 156;
-            this.pictureBox14.TabStop = false;
-            // 
             // button1
             // 
             this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(128)))), ((int)(((byte)(185)))));
@@ -4905,6 +4925,7 @@
             this.panel133.Name = "panel133";
             this.panel133.Size = new System.Drawing.Size(344, 180);
             this.panel133.TabIndex = 147;
+            this.panel133.Click += new System.EventHandler(this.panel133_Click);
             // 
             // label120
             // 
@@ -4925,6 +4946,7 @@
             this.panel134.Name = "panel134";
             this.panel134.Size = new System.Drawing.Size(344, 180);
             this.panel134.TabIndex = 146;
+            this.panel134.Click += new System.EventHandler(this.panel134_Click);
             // 
             // label119
             // 
@@ -4945,6 +4967,7 @@
             this.panel135.Name = "panel135";
             this.panel135.Size = new System.Drawing.Size(344, 180);
             this.panel135.TabIndex = 145;
+            this.panel135.Click += new System.EventHandler(this.panel135_Click);
             // 
             // label118
             // 
@@ -4965,6 +4988,7 @@
             this.panel136.Name = "panel136";
             this.panel136.Size = new System.Drawing.Size(344, 180);
             this.panel136.TabIndex = 144;
+            this.panel136.Click += new System.EventHandler(this.panel136_Click);
             // 
             // label117
             // 
@@ -4985,6 +5009,7 @@
             this.panel137.Name = "panel137";
             this.panel137.Size = new System.Drawing.Size(344, 180);
             this.panel137.TabIndex = 143;
+            this.panel137.Click += new System.EventHandler(this.panel137_Click);
             // 
             // label116
             // 
@@ -5005,6 +5030,7 @@
             this.panel138.Name = "panel138";
             this.panel138.Size = new System.Drawing.Size(344, 180);
             this.panel138.TabIndex = 142;
+            this.panel138.Click += new System.EventHandler(this.panel138_Click);
             // 
             // label115
             // 
@@ -5025,6 +5051,7 @@
             this.panel139.Name = "panel139";
             this.panel139.Size = new System.Drawing.Size(344, 180);
             this.panel139.TabIndex = 141;
+            this.panel139.Click += new System.EventHandler(this.panel139_Click);
             // 
             // label114
             // 
@@ -5045,6 +5072,7 @@
             this.panel140.Name = "panel140";
             this.panel140.Size = new System.Drawing.Size(344, 180);
             this.panel140.TabIndex = 140;
+            this.panel140.Click += new System.EventHandler(this.panel140_Click);
             // 
             // label113
             // 
@@ -5065,6 +5093,7 @@
             this.panel141.Name = "panel141";
             this.panel141.Size = new System.Drawing.Size(344, 180);
             this.panel141.TabIndex = 139;
+            this.panel141.Click += new System.EventHandler(this.panel141_Click);
             // 
             // label112
             // 
@@ -5085,6 +5114,7 @@
             this.panel142.Name = "panel142";
             this.panel142.Size = new System.Drawing.Size(344, 180);
             this.panel142.TabIndex = 138;
+            this.panel142.Click += new System.EventHandler(this.panel142_Click);
             // 
             // label111
             // 
@@ -5105,6 +5135,7 @@
             this.panel143.Name = "panel143";
             this.panel143.Size = new System.Drawing.Size(344, 180);
             this.panel143.TabIndex = 137;
+            this.panel143.Click += new System.EventHandler(this.panel143_Click);
             // 
             // label110
             // 
@@ -5125,6 +5156,7 @@
             this.panel144.Name = "panel144";
             this.panel144.Size = new System.Drawing.Size(344, 180);
             this.panel144.TabIndex = 136;
+            this.panel144.Click += new System.EventHandler(this.panel144_Click);
             // 
             // label109
             // 
@@ -5145,6 +5177,7 @@
             this.panel145.Name = "panel145";
             this.panel145.Size = new System.Drawing.Size(344, 180);
             this.panel145.TabIndex = 135;
+            this.panel145.Click += new System.EventHandler(this.panel145_Click);
             // 
             // label108
             // 
@@ -5165,6 +5198,7 @@
             this.panel146.Name = "panel146";
             this.panel146.Size = new System.Drawing.Size(344, 180);
             this.panel146.TabIndex = 134;
+            this.panel146.Click += new System.EventHandler(this.panel146_Click);
             // 
             // label107
             // 
@@ -5185,6 +5219,7 @@
             this.panel147.Name = "panel147";
             this.panel147.Size = new System.Drawing.Size(344, 180);
             this.panel147.TabIndex = 133;
+            this.panel147.Click += new System.EventHandler(this.panel147_Click);
             // 
             // label106
             // 
@@ -5205,6 +5240,7 @@
             this.panel148.Name = "panel148";
             this.panel148.Size = new System.Drawing.Size(344, 180);
             this.panel148.TabIndex = 132;
+            this.panel148.Click += new System.EventHandler(this.panel148_Click);
             // 
             // label105
             // 
@@ -5225,6 +5261,7 @@
             this.panel149.Name = "panel149";
             this.panel149.Size = new System.Drawing.Size(344, 180);
             this.panel149.TabIndex = 131;
+            this.panel149.Click += new System.EventHandler(this.panel149_Click);
             // 
             // label104
             // 
@@ -5245,6 +5282,7 @@
             this.panel150.Name = "panel150";
             this.panel150.Size = new System.Drawing.Size(344, 180);
             this.panel150.TabIndex = 130;
+            this.panel150.Click += new System.EventHandler(this.panel150_Click);
             // 
             // label103
             // 
@@ -5265,6 +5303,7 @@
             this.panel151.Name = "panel151";
             this.panel151.Size = new System.Drawing.Size(344, 180);
             this.panel151.TabIndex = 129;
+            this.panel151.Click += new System.EventHandler(this.panel151_Click);
             // 
             // label102
             // 
@@ -5285,6 +5324,7 @@
             this.panel152.Name = "panel152";
             this.panel152.Size = new System.Drawing.Size(344, 180);
             this.panel152.TabIndex = 128;
+            this.panel152.Click += new System.EventHandler(this.panel152_Click);
             // 
             // label101
             // 
@@ -5305,6 +5345,7 @@
             this.panel153.Name = "panel153";
             this.panel153.Size = new System.Drawing.Size(344, 180);
             this.panel153.TabIndex = 127;
+            this.panel153.Click += new System.EventHandler(this.panel153_Click);
             // 
             // label100
             // 
@@ -5325,6 +5366,7 @@
             this.panel154.Name = "panel154";
             this.panel154.Size = new System.Drawing.Size(344, 180);
             this.panel154.TabIndex = 126;
+            this.panel154.Click += new System.EventHandler(this.panel154_Click);
             // 
             // label99
             // 
@@ -5345,6 +5387,7 @@
             this.panel155.Name = "panel155";
             this.panel155.Size = new System.Drawing.Size(344, 180);
             this.panel155.TabIndex = 125;
+            this.panel155.Click += new System.EventHandler(this.panel155_Click);
             // 
             // label98
             // 
@@ -5365,6 +5408,7 @@
             this.panel156.Name = "panel156";
             this.panel156.Size = new System.Drawing.Size(344, 180);
             this.panel156.TabIndex = 124;
+            this.panel156.Click += new System.EventHandler(this.panel156_Click);
             // 
             // label97
             // 
@@ -5385,6 +5429,7 @@
             this.panel157.Name = "panel157";
             this.panel157.Size = new System.Drawing.Size(344, 180);
             this.panel157.TabIndex = 123;
+            this.panel157.Click += new System.EventHandler(this.panel157_Click);
             // 
             // label96
             // 
@@ -5405,6 +5450,7 @@
             this.panel158.Name = "panel158";
             this.panel158.Size = new System.Drawing.Size(344, 180);
             this.panel158.TabIndex = 122;
+            this.panel158.Click += new System.EventHandler(this.panel158_Click);
             // 
             // label95
             // 
@@ -5425,6 +5471,7 @@
             this.panel159.Name = "panel159";
             this.panel159.Size = new System.Drawing.Size(344, 180);
             this.panel159.TabIndex = 121;
+            this.panel159.Click += new System.EventHandler(this.panel159_Click);
             // 
             // label94
             // 
@@ -5445,6 +5492,7 @@
             this.panel160.Name = "panel160";
             this.panel160.Size = new System.Drawing.Size(344, 180);
             this.panel160.TabIndex = 120;
+            this.panel160.Click += new System.EventHandler(this.panel160_Click);
             // 
             // label93
             // 
@@ -5465,6 +5513,7 @@
             this.panel161.Name = "panel161";
             this.panel161.Size = new System.Drawing.Size(344, 180);
             this.panel161.TabIndex = 119;
+            this.panel161.Click += new System.EventHandler(this.panel161_Click);
             // 
             // label92
             // 
@@ -5485,6 +5534,7 @@
             this.panel162.Name = "panel162";
             this.panel162.Size = new System.Drawing.Size(344, 180);
             this.panel162.TabIndex = 118;
+            this.panel162.Click += new System.EventHandler(this.panel162_Click);
             // 
             // label91
             // 
@@ -5652,6 +5702,7 @@
             this.button4.TabIndex = 155;
             this.button4.Text = "View Events";
             this.button4.UseVisualStyleBackColor = false;
+            this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
             // pictureBox5
             // 
@@ -5664,11 +5715,13 @@
             // panel179
             // 
             this.panel179.BackColor = System.Drawing.Color.LightGray;
+            this.panel179.Controls.Add(this.textBox152);
             this.panel179.Controls.Add(this.label151);
             this.panel179.Location = new System.Drawing.Point(1090, 861);
             this.panel179.Name = "panel179";
             this.panel179.Size = new System.Drawing.Size(344, 180);
             this.panel179.TabIndex = 143;
+            this.panel179.Click += new System.EventHandler(this.panel179_Click);
             // 
             // label151
             // 
@@ -5683,11 +5736,13 @@
             // panel180
             // 
             this.panel180.BackColor = System.Drawing.Color.LightGray;
+            this.panel180.Controls.Add(this.textBox151);
             this.panel180.Controls.Add(this.label150);
             this.panel180.Location = new System.Drawing.Point(734, 861);
             this.panel180.Name = "panel180";
             this.panel180.Size = new System.Drawing.Size(344, 180);
             this.panel180.TabIndex = 142;
+            this.panel180.Click += new System.EventHandler(this.panel180_Click);
             // 
             // label150
             // 
@@ -5702,11 +5757,13 @@
             // panel181
             // 
             this.panel181.BackColor = System.Drawing.Color.LightGray;
+            this.panel181.Controls.Add(this.textBox150);
             this.panel181.Controls.Add(this.label149);
             this.panel181.Location = new System.Drawing.Point(373, 861);
             this.panel181.Name = "panel181";
             this.panel181.Size = new System.Drawing.Size(344, 180);
             this.panel181.TabIndex = 141;
+            this.panel181.Click += new System.EventHandler(this.panel181_Click);
             // 
             // label149
             // 
@@ -5721,11 +5778,13 @@
             // panel182
             // 
             this.panel182.BackColor = System.Drawing.Color.LightGray;
+            this.panel182.Controls.Add(this.textBox149);
             this.panel182.Controls.Add(this.label148);
             this.panel182.Location = new System.Drawing.Point(17, 861);
             this.panel182.Name = "panel182";
             this.panel182.Size = new System.Drawing.Size(344, 180);
             this.panel182.TabIndex = 140;
+            this.panel182.Click += new System.EventHandler(this.panel182_Click);
             // 
             // label148
             // 
@@ -5741,10 +5800,12 @@
             // 
             this.panel183.BackColor = System.Drawing.Color.LightGray;
             this.panel183.Controls.Add(this.label147);
+            this.panel183.Controls.Add(this.textBox148);
             this.panel183.Location = new System.Drawing.Point(2166, 665);
             this.panel183.Name = "panel183";
             this.panel183.Size = new System.Drawing.Size(344, 180);
             this.panel183.TabIndex = 139;
+            this.panel183.Click += new System.EventHandler(this.panel183_Click);
             // 
             // label147
             // 
@@ -5760,10 +5821,12 @@
             // 
             this.panel184.BackColor = System.Drawing.Color.LightGray;
             this.panel184.Controls.Add(this.label146);
+            this.panel184.Controls.Add(this.textBox147);
             this.panel184.Location = new System.Drawing.Point(1805, 665);
             this.panel184.Name = "panel184";
             this.panel184.Size = new System.Drawing.Size(344, 180);
             this.panel184.TabIndex = 138;
+            this.panel184.Click += new System.EventHandler(this.panel184_Click);
             // 
             // label146
             // 
@@ -5779,10 +5842,12 @@
             // 
             this.panel185.BackColor = System.Drawing.Color.LightGray;
             this.panel185.Controls.Add(this.label145);
+            this.panel185.Controls.Add(this.textBox146);
             this.panel185.Location = new System.Drawing.Point(1449, 665);
             this.panel185.Name = "panel185";
             this.panel185.Size = new System.Drawing.Size(344, 180);
             this.panel185.TabIndex = 137;
+            this.panel185.Click += new System.EventHandler(this.panel185_Click);
             // 
             // label145
             // 
@@ -5797,11 +5862,13 @@
             // panel186
             // 
             this.panel186.BackColor = System.Drawing.Color.LightGray;
+            this.panel186.Controls.Add(this.textBox145);
             this.panel186.Controls.Add(this.label144);
             this.panel186.Location = new System.Drawing.Point(1090, 665);
             this.panel186.Name = "panel186";
             this.panel186.Size = new System.Drawing.Size(344, 180);
             this.panel186.TabIndex = 136;
+            this.panel186.Click += new System.EventHandler(this.panel186_Click);
             // 
             // label144
             // 
@@ -5816,11 +5883,13 @@
             // panel187
             // 
             this.panel187.BackColor = System.Drawing.Color.LightGray;
+            this.panel187.Controls.Add(this.textBox144);
             this.panel187.Controls.Add(this.label143);
             this.panel187.Location = new System.Drawing.Point(734, 665);
             this.panel187.Name = "panel187";
             this.panel187.Size = new System.Drawing.Size(344, 180);
             this.panel187.TabIndex = 135;
+            this.panel187.Click += new System.EventHandler(this.panel187_Click);
             // 
             // label143
             // 
@@ -5835,11 +5904,13 @@
             // panel188
             // 
             this.panel188.BackColor = System.Drawing.Color.LightGray;
+            this.panel188.Controls.Add(this.textBox143);
             this.panel188.Controls.Add(this.label142);
             this.panel188.Location = new System.Drawing.Point(373, 665);
             this.panel188.Name = "panel188";
             this.panel188.Size = new System.Drawing.Size(344, 180);
             this.panel188.TabIndex = 134;
+            this.panel188.Click += new System.EventHandler(this.panel188_Click);
             // 
             // label142
             // 
@@ -5854,11 +5925,13 @@
             // panel189
             // 
             this.panel189.BackColor = System.Drawing.Color.LightGray;
+            this.panel189.Controls.Add(this.textBox142);
             this.panel189.Controls.Add(this.label141);
             this.panel189.Location = new System.Drawing.Point(17, 665);
             this.panel189.Name = "panel189";
             this.panel189.Size = new System.Drawing.Size(344, 180);
             this.panel189.TabIndex = 133;
+            this.panel189.Click += new System.EventHandler(this.panel189_Click);
             // 
             // label141
             // 
@@ -5873,11 +5946,13 @@
             // panel190
             // 
             this.panel190.BackColor = System.Drawing.Color.LightGray;
+            this.panel190.Controls.Add(this.textBox141);
             this.panel190.Controls.Add(this.label140);
             this.panel190.Location = new System.Drawing.Point(2166, 469);
             this.panel190.Name = "panel190";
             this.panel190.Size = new System.Drawing.Size(344, 180);
             this.panel190.TabIndex = 132;
+            this.panel190.Click += new System.EventHandler(this.panel190_Click);
             // 
             // label140
             // 
@@ -5892,11 +5967,13 @@
             // panel191
             // 
             this.panel191.BackColor = System.Drawing.Color.LightGray;
+            this.panel191.Controls.Add(this.textBox140);
             this.panel191.Controls.Add(this.label139);
             this.panel191.Location = new System.Drawing.Point(1805, 469);
             this.panel191.Name = "panel191";
             this.panel191.Size = new System.Drawing.Size(344, 180);
             this.panel191.TabIndex = 131;
+            this.panel191.Click += new System.EventHandler(this.panel191_Click);
             // 
             // label139
             // 
@@ -5911,11 +5988,13 @@
             // panel192
             // 
             this.panel192.BackColor = System.Drawing.Color.LightGray;
+            this.panel192.Controls.Add(this.textBox139);
             this.panel192.Controls.Add(this.label138);
             this.panel192.Location = new System.Drawing.Point(1449, 469);
             this.panel192.Name = "panel192";
             this.panel192.Size = new System.Drawing.Size(344, 180);
             this.panel192.TabIndex = 130;
+            this.panel192.Click += new System.EventHandler(this.panel192_Click);
             // 
             // label138
             // 
@@ -5930,11 +6009,13 @@
             // panel193
             // 
             this.panel193.BackColor = System.Drawing.Color.LightGray;
+            this.panel193.Controls.Add(this.textBox138);
             this.panel193.Controls.Add(this.label137);
             this.panel193.Location = new System.Drawing.Point(1090, 469);
             this.panel193.Name = "panel193";
             this.panel193.Size = new System.Drawing.Size(344, 180);
             this.panel193.TabIndex = 129;
+            this.panel193.Click += new System.EventHandler(this.panel193_Click);
             // 
             // label137
             // 
@@ -5949,11 +6030,13 @@
             // panel194
             // 
             this.panel194.BackColor = System.Drawing.Color.LightGray;
+            this.panel194.Controls.Add(this.textBox137);
             this.panel194.Controls.Add(this.label136);
             this.panel194.Location = new System.Drawing.Point(734, 469);
             this.panel194.Name = "panel194";
             this.panel194.Size = new System.Drawing.Size(344, 180);
             this.panel194.TabIndex = 128;
+            this.panel194.Click += new System.EventHandler(this.panel194_Click);
             // 
             // label136
             // 
@@ -5968,11 +6051,13 @@
             // panel195
             // 
             this.panel195.BackColor = System.Drawing.Color.LightGray;
+            this.panel195.Controls.Add(this.textBox136);
             this.panel195.Controls.Add(this.label135);
             this.panel195.Location = new System.Drawing.Point(373, 469);
             this.panel195.Name = "panel195";
             this.panel195.Size = new System.Drawing.Size(344, 180);
             this.panel195.TabIndex = 127;
+            this.panel195.Click += new System.EventHandler(this.panel195_Click);
             // 
             // label135
             // 
@@ -5987,11 +6072,13 @@
             // panel196
             // 
             this.panel196.BackColor = System.Drawing.Color.LightGray;
+            this.panel196.Controls.Add(this.textBox135);
             this.panel196.Controls.Add(this.label134);
             this.panel196.Location = new System.Drawing.Point(17, 469);
             this.panel196.Name = "panel196";
             this.panel196.Size = new System.Drawing.Size(344, 180);
             this.panel196.TabIndex = 126;
+            this.panel196.Click += new System.EventHandler(this.panel196_Click);
             // 
             // label134
             // 
@@ -6007,10 +6094,12 @@
             // 
             this.panel197.BackColor = System.Drawing.Color.LightGray;
             this.panel197.Controls.Add(this.label133);
+            this.panel197.Controls.Add(this.textBox134);
             this.panel197.Location = new System.Drawing.Point(2166, 274);
             this.panel197.Name = "panel197";
             this.panel197.Size = new System.Drawing.Size(344, 180);
             this.panel197.TabIndex = 125;
+            this.panel197.Click += new System.EventHandler(this.panel197_Click);
             // 
             // label133
             // 
@@ -6026,10 +6115,12 @@
             // 
             this.panel198.BackColor = System.Drawing.Color.LightGray;
             this.panel198.Controls.Add(this.label132);
+            this.panel198.Controls.Add(this.textBox133);
             this.panel198.Location = new System.Drawing.Point(1805, 274);
             this.panel198.Name = "panel198";
             this.panel198.Size = new System.Drawing.Size(344, 180);
             this.panel198.TabIndex = 124;
+            this.panel198.Click += new System.EventHandler(this.panel198_Click);
             // 
             // label132
             // 
@@ -6045,10 +6136,12 @@
             // 
             this.panel199.BackColor = System.Drawing.Color.LightGray;
             this.panel199.Controls.Add(this.label131);
+            this.panel199.Controls.Add(this.textBox132);
             this.panel199.Location = new System.Drawing.Point(1449, 274);
             this.panel199.Name = "panel199";
             this.panel199.Size = new System.Drawing.Size(344, 180);
             this.panel199.TabIndex = 123;
+            this.panel199.Click += new System.EventHandler(this.panel199_Click);
             // 
             // label131
             // 
@@ -6063,11 +6156,13 @@
             // panel200
             // 
             this.panel200.BackColor = System.Drawing.Color.LightGray;
+            this.panel200.Controls.Add(this.textBox131);
             this.panel200.Controls.Add(this.label130);
             this.panel200.Location = new System.Drawing.Point(1090, 274);
             this.panel200.Name = "panel200";
             this.panel200.Size = new System.Drawing.Size(344, 180);
             this.panel200.TabIndex = 122;
+            this.panel200.Click += new System.EventHandler(this.panel200_Click);
             // 
             // label130
             // 
@@ -6082,11 +6177,13 @@
             // panel201
             // 
             this.panel201.BackColor = System.Drawing.Color.LightGray;
+            this.panel201.Controls.Add(this.textBox130);
             this.panel201.Controls.Add(this.label129);
             this.panel201.Location = new System.Drawing.Point(734, 274);
             this.panel201.Name = "panel201";
             this.panel201.Size = new System.Drawing.Size(344, 180);
             this.panel201.TabIndex = 121;
+            this.panel201.Click += new System.EventHandler(this.panel201_Click);
             // 
             // label129
             // 
@@ -6101,11 +6198,13 @@
             // panel202
             // 
             this.panel202.BackColor = System.Drawing.Color.LightGray;
+            this.panel202.Controls.Add(this.textBox129);
             this.panel202.Controls.Add(this.label128);
             this.panel202.Location = new System.Drawing.Point(373, 274);
             this.panel202.Name = "panel202";
             this.panel202.Size = new System.Drawing.Size(344, 180);
             this.panel202.TabIndex = 120;
+            this.panel202.Click += new System.EventHandler(this.panel202_Click);
             // 
             // label128
             // 
@@ -6120,11 +6219,13 @@
             // panel203
             // 
             this.panel203.BackColor = System.Drawing.Color.LightGray;
+            this.panel203.Controls.Add(this.textBox128);
             this.panel203.Controls.Add(this.label127);
             this.panel203.Location = new System.Drawing.Point(17, 274);
             this.panel203.Name = "panel203";
             this.panel203.Size = new System.Drawing.Size(344, 180);
             this.panel203.TabIndex = 119;
+            this.panel203.Click += new System.EventHandler(this.panel203_Click);
             // 
             // label127
             // 
@@ -6139,11 +6240,13 @@
             // panel204
             // 
             this.panel204.BackColor = System.Drawing.Color.LightGray;
+            this.panel204.Controls.Add(this.textBox127);
             this.panel204.Controls.Add(this.label126);
             this.panel204.Location = new System.Drawing.Point(2166, 79);
             this.panel204.Name = "panel204";
             this.panel204.Size = new System.Drawing.Size(344, 180);
             this.panel204.TabIndex = 118;
+            this.panel204.Click += new System.EventHandler(this.panel204_Click);
             // 
             // label126
             // 
@@ -6158,11 +6261,13 @@
             // panel205
             // 
             this.panel205.BackColor = System.Drawing.Color.LightGray;
+            this.panel205.Controls.Add(this.textBox126);
             this.panel205.Controls.Add(this.label125);
             this.panel205.Location = new System.Drawing.Point(1805, 79);
             this.panel205.Name = "panel205";
             this.panel205.Size = new System.Drawing.Size(344, 180);
             this.panel205.TabIndex = 117;
+            this.panel205.Click += new System.EventHandler(this.panel205_Click);
             // 
             // label125
             // 
@@ -6177,11 +6282,13 @@
             // panel206
             // 
             this.panel206.BackColor = System.Drawing.Color.LightGray;
+            this.panel206.Controls.Add(this.textBox125);
             this.panel206.Controls.Add(this.label124);
             this.panel206.Location = new System.Drawing.Point(1449, 79);
             this.panel206.Name = "panel206";
             this.panel206.Size = new System.Drawing.Size(344, 180);
             this.panel206.TabIndex = 116;
+            this.panel206.Click += new System.EventHandler(this.panel206_Click);
             // 
             // label124
             // 
@@ -6196,11 +6303,13 @@
             // panel207
             // 
             this.panel207.BackColor = System.Drawing.Color.LightGray;
+            this.panel207.Controls.Add(this.textBox124);
             this.panel207.Controls.Add(this.label123);
             this.panel207.Location = new System.Drawing.Point(1090, 79);
             this.panel207.Name = "panel207";
             this.panel207.Size = new System.Drawing.Size(344, 180);
             this.panel207.TabIndex = 115;
+            this.panel207.Click += new System.EventHandler(this.panel207_Click);
             // 
             // label123
             // 
@@ -6215,11 +6324,13 @@
             // panel208
             // 
             this.panel208.BackColor = System.Drawing.Color.LightGray;
+            this.panel208.Controls.Add(this.textBox123);
             this.panel208.Controls.Add(this.label122);
             this.panel208.Location = new System.Drawing.Point(734, 79);
             this.panel208.Name = "panel208";
             this.panel208.Size = new System.Drawing.Size(344, 180);
             this.panel208.TabIndex = 114;
+            this.panel208.Click += new System.EventHandler(this.panel208_Click);
             // 
             // label122
             // 
@@ -6234,11 +6345,13 @@
             // panel209
             // 
             this.panel209.BackColor = System.Drawing.Color.LightGray;
+            this.panel209.Controls.Add(this.textBox122);
             this.panel209.Controls.Add(this.label121);
             this.panel209.Location = new System.Drawing.Point(373, 79);
             this.panel209.Name = "panel209";
             this.panel209.Size = new System.Drawing.Size(344, 180);
             this.panel209.TabIndex = 113;
+            this.panel209.Click += new System.EventHandler(this.panel209_Click);
             // 
             // label121
             // 
@@ -11887,6 +12000,347 @@
             this.textBox121.TabIndex = 108;
             this.textBox121.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
+            // textBox122
+            // 
+            this.textBox122.BackColor = System.Drawing.Color.LightGray;
+            this.textBox122.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBox122.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.125F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox122.Location = new System.Drawing.Point(138, 76);
+            this.textBox122.Name = "textBox122";
+            this.textBox122.Size = new System.Drawing.Size(58, 49);
+            this.textBox122.TabIndex = 109;
+            this.textBox122.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // textBox123
+            // 
+            this.textBox123.BackColor = System.Drawing.Color.LightGray;
+            this.textBox123.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBox123.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.125F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox123.Location = new System.Drawing.Point(146, 76);
+            this.textBox123.Name = "textBox123";
+            this.textBox123.Size = new System.Drawing.Size(58, 49);
+            this.textBox123.TabIndex = 109;
+            this.textBox123.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // textBox124
+            // 
+            this.textBox124.BackColor = System.Drawing.Color.LightGray;
+            this.textBox124.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBox124.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.125F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox124.Location = new System.Drawing.Point(145, 76);
+            this.textBox124.Name = "textBox124";
+            this.textBox124.Size = new System.Drawing.Size(58, 49);
+            this.textBox124.TabIndex = 109;
+            this.textBox124.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // textBox125
+            // 
+            this.textBox125.BackColor = System.Drawing.Color.LightGray;
+            this.textBox125.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBox125.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.125F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox125.Location = new System.Drawing.Point(146, 85);
+            this.textBox125.Name = "textBox125";
+            this.textBox125.Size = new System.Drawing.Size(58, 49);
+            this.textBox125.TabIndex = 109;
+            this.textBox125.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // textBox126
+            // 
+            this.textBox126.BackColor = System.Drawing.Color.LightGray;
+            this.textBox126.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBox126.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.125F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox126.Location = new System.Drawing.Point(148, 85);
+            this.textBox126.Name = "textBox126";
+            this.textBox126.Size = new System.Drawing.Size(58, 49);
+            this.textBox126.TabIndex = 109;
+            this.textBox126.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // textBox127
+            // 
+            this.textBox127.BackColor = System.Drawing.Color.LightGray;
+            this.textBox127.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBox127.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.125F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox127.Location = new System.Drawing.Point(148, 76);
+            this.textBox127.Name = "textBox127";
+            this.textBox127.Size = new System.Drawing.Size(58, 49);
+            this.textBox127.TabIndex = 109;
+            this.textBox127.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // textBox128
+            // 
+            this.textBox128.BackColor = System.Drawing.Color.LightGray;
+            this.textBox128.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBox128.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.125F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox128.Location = new System.Drawing.Point(136, 76);
+            this.textBox128.Name = "textBox128";
+            this.textBox128.Size = new System.Drawing.Size(58, 49);
+            this.textBox128.TabIndex = 109;
+            this.textBox128.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // textBox129
+            // 
+            this.textBox129.BackColor = System.Drawing.Color.LightGray;
+            this.textBox129.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBox129.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.125F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox129.Location = new System.Drawing.Point(138, 76);
+            this.textBox129.Name = "textBox129";
+            this.textBox129.Size = new System.Drawing.Size(58, 49);
+            this.textBox129.TabIndex = 109;
+            this.textBox129.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // textBox130
+            // 
+            this.textBox130.BackColor = System.Drawing.Color.LightGray;
+            this.textBox130.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBox130.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.125F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox130.Location = new System.Drawing.Point(146, 76);
+            this.textBox130.Name = "textBox130";
+            this.textBox130.Size = new System.Drawing.Size(58, 49);
+            this.textBox130.TabIndex = 109;
+            this.textBox130.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // textBox131
+            // 
+            this.textBox131.BackColor = System.Drawing.Color.LightGray;
+            this.textBox131.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBox131.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.125F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox131.Location = new System.Drawing.Point(145, 76);
+            this.textBox131.Name = "textBox131";
+            this.textBox131.Size = new System.Drawing.Size(58, 49);
+            this.textBox131.TabIndex = 109;
+            this.textBox131.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // textBox132
+            // 
+            this.textBox132.BackColor = System.Drawing.Color.LightGray;
+            this.textBox132.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBox132.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.125F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox132.Location = new System.Drawing.Point(146, 85);
+            this.textBox132.Name = "textBox132";
+            this.textBox132.Size = new System.Drawing.Size(58, 49);
+            this.textBox132.TabIndex = 109;
+            this.textBox132.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // textBox133
+            // 
+            this.textBox133.BackColor = System.Drawing.Color.LightGray;
+            this.textBox133.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBox133.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.125F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox133.Location = new System.Drawing.Point(148, 85);
+            this.textBox133.Name = "textBox133";
+            this.textBox133.Size = new System.Drawing.Size(58, 49);
+            this.textBox133.TabIndex = 109;
+            this.textBox133.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // textBox134
+            // 
+            this.textBox134.BackColor = System.Drawing.Color.LightGray;
+            this.textBox134.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBox134.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.125F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox134.Location = new System.Drawing.Point(148, 85);
+            this.textBox134.Name = "textBox134";
+            this.textBox134.Size = new System.Drawing.Size(58, 49);
+            this.textBox134.TabIndex = 109;
+            this.textBox134.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // textBox135
+            // 
+            this.textBox135.BackColor = System.Drawing.Color.LightGray;
+            this.textBox135.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBox135.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.125F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox135.Location = new System.Drawing.Point(136, 80);
+            this.textBox135.Name = "textBox135";
+            this.textBox135.Size = new System.Drawing.Size(58, 49);
+            this.textBox135.TabIndex = 109;
+            this.textBox135.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // textBox136
+            // 
+            this.textBox136.BackColor = System.Drawing.Color.LightGray;
+            this.textBox136.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBox136.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.125F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox136.Location = new System.Drawing.Point(138, 80);
+            this.textBox136.Name = "textBox136";
+            this.textBox136.Size = new System.Drawing.Size(58, 49);
+            this.textBox136.TabIndex = 109;
+            this.textBox136.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // textBox137
+            // 
+            this.textBox137.BackColor = System.Drawing.Color.LightGray;
+            this.textBox137.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBox137.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.125F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox137.Location = new System.Drawing.Point(146, 80);
+            this.textBox137.Name = "textBox137";
+            this.textBox137.Size = new System.Drawing.Size(58, 49);
+            this.textBox137.TabIndex = 109;
+            this.textBox137.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // textBox138
+            // 
+            this.textBox138.BackColor = System.Drawing.Color.LightGray;
+            this.textBox138.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBox138.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.125F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox138.Location = new System.Drawing.Point(145, 80);
+            this.textBox138.Name = "textBox138";
+            this.textBox138.Size = new System.Drawing.Size(58, 49);
+            this.textBox138.TabIndex = 109;
+            this.textBox138.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // textBox139
+            // 
+            this.textBox139.BackColor = System.Drawing.Color.LightGray;
+            this.textBox139.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBox139.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.125F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox139.Location = new System.Drawing.Point(146, 80);
+            this.textBox139.Name = "textBox139";
+            this.textBox139.Size = new System.Drawing.Size(58, 49);
+            this.textBox139.TabIndex = 109;
+            this.textBox139.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // textBox140
+            // 
+            this.textBox140.BackColor = System.Drawing.Color.LightGray;
+            this.textBox140.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBox140.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.125F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox140.Location = new System.Drawing.Point(148, 80);
+            this.textBox140.Name = "textBox140";
+            this.textBox140.Size = new System.Drawing.Size(58, 49);
+            this.textBox140.TabIndex = 109;
+            this.textBox140.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // textBox141
+            // 
+            this.textBox141.BackColor = System.Drawing.Color.LightGray;
+            this.textBox141.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBox141.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.125F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox141.Location = new System.Drawing.Point(148, 80);
+            this.textBox141.Name = "textBox141";
+            this.textBox141.Size = new System.Drawing.Size(58, 49);
+            this.textBox141.TabIndex = 109;
+            this.textBox141.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // textBox142
+            // 
+            this.textBox142.BackColor = System.Drawing.Color.LightGray;
+            this.textBox142.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBox142.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.125F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox142.Location = new System.Drawing.Point(121, 76);
+            this.textBox142.Name = "textBox142";
+            this.textBox142.Size = new System.Drawing.Size(58, 49);
+            this.textBox142.TabIndex = 109;
+            this.textBox142.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // textBox143
+            // 
+            this.textBox143.BackColor = System.Drawing.Color.LightGray;
+            this.textBox143.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBox143.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.125F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox143.Location = new System.Drawing.Point(138, 76);
+            this.textBox143.Name = "textBox143";
+            this.textBox143.Size = new System.Drawing.Size(58, 49);
+            this.textBox143.TabIndex = 109;
+            this.textBox143.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // textBox144
+            // 
+            this.textBox144.BackColor = System.Drawing.Color.LightGray;
+            this.textBox144.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBox144.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.125F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox144.Location = new System.Drawing.Point(146, 76);
+            this.textBox144.Name = "textBox144";
+            this.textBox144.Size = new System.Drawing.Size(58, 49);
+            this.textBox144.TabIndex = 109;
+            this.textBox144.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // textBox145
+            // 
+            this.textBox145.BackColor = System.Drawing.Color.LightGray;
+            this.textBox145.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBox145.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.125F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox145.Location = new System.Drawing.Point(145, 76);
+            this.textBox145.Name = "textBox145";
+            this.textBox145.Size = new System.Drawing.Size(58, 49);
+            this.textBox145.TabIndex = 109;
+            this.textBox145.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // textBox146
+            // 
+            this.textBox146.BackColor = System.Drawing.Color.LightGray;
+            this.textBox146.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBox146.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.125F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox146.Location = new System.Drawing.Point(146, 76);
+            this.textBox146.Name = "textBox146";
+            this.textBox146.Size = new System.Drawing.Size(58, 49);
+            this.textBox146.TabIndex = 109;
+            this.textBox146.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // textBox147
+            // 
+            this.textBox147.BackColor = System.Drawing.Color.LightGray;
+            this.textBox147.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBox147.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.125F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox147.Location = new System.Drawing.Point(148, 76);
+            this.textBox147.Name = "textBox147";
+            this.textBox147.Size = new System.Drawing.Size(58, 49);
+            this.textBox147.TabIndex = 109;
+            this.textBox147.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // textBox148
+            // 
+            this.textBox148.BackColor = System.Drawing.Color.LightGray;
+            this.textBox148.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBox148.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.125F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox148.Location = new System.Drawing.Point(148, 76);
+            this.textBox148.Name = "textBox148";
+            this.textBox148.Size = new System.Drawing.Size(58, 49);
+            this.textBox148.TabIndex = 109;
+            this.textBox148.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // textBox149
+            // 
+            this.textBox149.BackColor = System.Drawing.Color.LightGray;
+            this.textBox149.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBox149.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.125F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox149.Location = new System.Drawing.Point(136, 79);
+            this.textBox149.Name = "textBox149";
+            this.textBox149.Size = new System.Drawing.Size(58, 49);
+            this.textBox149.TabIndex = 109;
+            this.textBox149.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // textBox150
+            // 
+            this.textBox150.BackColor = System.Drawing.Color.LightGray;
+            this.textBox150.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBox150.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.125F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox150.Location = new System.Drawing.Point(138, 79);
+            this.textBox150.Name = "textBox150";
+            this.textBox150.Size = new System.Drawing.Size(58, 49);
+            this.textBox150.TabIndex = 109;
+            this.textBox150.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // textBox151
+            // 
+            this.textBox151.BackColor = System.Drawing.Color.LightGray;
+            this.textBox151.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBox151.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.125F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox151.Location = new System.Drawing.Point(146, 79);
+            this.textBox151.Name = "textBox151";
+            this.textBox151.Size = new System.Drawing.Size(58, 49);
+            this.textBox151.TabIndex = 109;
+            this.textBox151.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // textBox152
+            // 
+            this.textBox152.BackColor = System.Drawing.Color.LightGray;
+            this.textBox152.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBox152.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.125F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox152.Location = new System.Drawing.Point(145, 79);
+            this.textBox152.Name = "textBox152";
+            this.textBox152.Size = new System.Drawing.Size(58, 49);
+            this.textBox152.TabIndex = 109;
+            this.textBox152.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
             // MainPage
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
@@ -12086,7 +12540,6 @@
             this.panel123.ResumeLayout(false);
             this.panel123.PerformLayout();
             this.tabPage4.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox14)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
             this.panel133.ResumeLayout(false);
             this.panel133.PerformLayout();
@@ -13509,7 +13962,6 @@
         private System.Windows.Forms.Label label336;
         private System.Windows.Forms.Label label335;
         private System.Windows.Forms.Button btnOpenEvents;
-        private System.Windows.Forms.PictureBox pictureBox14;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.PictureBox pictureBox16;
@@ -13650,5 +14102,36 @@
         private System.Windows.Forms.TextBox textBox94;
         private System.Windows.Forms.TextBox textBox93;
         private System.Windows.Forms.TextBox textBox92;
+        private System.Windows.Forms.TextBox textBox152;
+        private System.Windows.Forms.TextBox textBox151;
+        private System.Windows.Forms.TextBox textBox150;
+        private System.Windows.Forms.TextBox textBox149;
+        private System.Windows.Forms.TextBox textBox142;
+        private System.Windows.Forms.TextBox textBox143;
+        private System.Windows.Forms.TextBox textBox144;
+        private System.Windows.Forms.TextBox textBox145;
+        private System.Windows.Forms.TextBox textBox146;
+        private System.Windows.Forms.TextBox textBox147;
+        private System.Windows.Forms.TextBox textBox148;
+        private System.Windows.Forms.TextBox textBox141;
+        private System.Windows.Forms.TextBox textBox140;
+        private System.Windows.Forms.TextBox textBox139;
+        private System.Windows.Forms.TextBox textBox138;
+        private System.Windows.Forms.TextBox textBox137;
+        private System.Windows.Forms.TextBox textBox136;
+        private System.Windows.Forms.TextBox textBox135;
+        private System.Windows.Forms.TextBox textBox128;
+        private System.Windows.Forms.TextBox textBox129;
+        private System.Windows.Forms.TextBox textBox130;
+        private System.Windows.Forms.TextBox textBox131;
+        private System.Windows.Forms.TextBox textBox132;
+        private System.Windows.Forms.TextBox textBox133;
+        private System.Windows.Forms.TextBox textBox134;
+        private System.Windows.Forms.TextBox textBox127;
+        private System.Windows.Forms.TextBox textBox126;
+        private System.Windows.Forms.TextBox textBox125;
+        private System.Windows.Forms.TextBox textBox124;
+        private System.Windows.Forms.TextBox textBox123;
+        private System.Windows.Forms.TextBox textBox122;
     }
 }
