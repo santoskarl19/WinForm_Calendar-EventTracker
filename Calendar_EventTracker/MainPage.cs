@@ -36,8 +36,6 @@ namespace Calendar_EventTracker
         {
             EventForm eventForm = new EventForm();
             eventForm.ShowDialog();
-
-            // once activated = create textbox
         }
 
         private void panel2_Click(object sender, EventArgs e)

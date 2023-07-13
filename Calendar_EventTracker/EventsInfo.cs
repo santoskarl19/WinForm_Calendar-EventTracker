@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows.Forms;
 
 namespace Calendar_EventTracker
 {
@@ -12,6 +13,7 @@ namespace Calendar_EventTracker
         public string Event_Name { get; set; }
         public string Location { get; set; }
         public string Details { get; set; }
+        public Panel AssociatedPanel { get; set; } // delete maybe
     }
 
 }
