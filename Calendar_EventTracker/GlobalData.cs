@@ -10,5 +10,8 @@ namespace Calendar_EventTracker
     public static class GlobalData
     {
         public static BindingList<Events> EventList { get; } = new BindingList<Events>();
+
+        public static bool ifAdded { get; set; }
+
     }
 }

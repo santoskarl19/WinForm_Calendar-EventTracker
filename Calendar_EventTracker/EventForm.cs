@@ -35,6 +35,8 @@ namespace Calendar_EventTracker
 
             MessageBox.Show("Event added!");
 
+            GlobalData.ifAdded = true;
+
             txtDetails.Clear();
             txtEvent.Clear();
             txtLocation.Clear();

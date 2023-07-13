@@ -38,6 +38,7 @@ namespace Calendar_EventTracker
                 // display message once record is deleted
                 MessageBox.Show("Event Successfully Deleted!");
 
+                GlobalData.ifAdded = false;
             }
             else if (result == DialogResult.No)
             {

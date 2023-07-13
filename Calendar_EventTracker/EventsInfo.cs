@@ -13,6 +13,7 @@ namespace Calendar_EventTracker
         public string Event_Name { get; set; }
         public string Location { get; set; }
         public string Details { get; set; }
+
     }
 
 }
