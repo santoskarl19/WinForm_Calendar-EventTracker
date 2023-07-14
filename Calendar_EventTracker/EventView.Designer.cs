@@ -33,7 +33,6 @@
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.btnDeleteEvent = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -87,27 +86,11 @@
             this.dataGridView1.Size = new System.Drawing.Size(1040, 1087);
             this.dataGridView1.TabIndex = 0;
             // 
-            // btnDeleteEvent
-            // 
-            this.btnDeleteEvent.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(128)))), ((int)(((byte)(185)))));
-            this.btnDeleteEvent.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnDeleteEvent.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnDeleteEvent.Font = new System.Drawing.Font("Century Gothic", 10.125F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnDeleteEvent.ForeColor = System.Drawing.Color.White;
-            this.btnDeleteEvent.Location = new System.Drawing.Point(849, 996);
-            this.btnDeleteEvent.Name = "btnDeleteEvent";
-            this.btnDeleteEvent.Size = new System.Drawing.Size(136, 51);
-            this.btnDeleteEvent.TabIndex = 58;
-            this.btnDeleteEvent.Text = "DELETE";
-            this.btnDeleteEvent.UseVisualStyleBackColor = false;
-            this.btnDeleteEvent.Click += new System.EventHandler(this.btnDeleteEvent_Click);
-            // 
             // EventView
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1041, 1142);
-            this.Controls.Add(this.btnDeleteEvent);
             this.Controls.Add(this.dataGridView1);
             this.Name = "EventView";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
@@ -120,6 +103,5 @@
         #endregion
 
         private System.Windows.Forms.DataGridView dataGridView1;
-        private System.Windows.Forms.Button btnDeleteEvent;
     }
 }
